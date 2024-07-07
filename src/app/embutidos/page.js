@@ -83,7 +83,9 @@ export default function Embutidos() {
               <hr class="linea3" />
             </div>
             <div className="boton-posicion-carta-vinos">
+            <a href="/bodegas">
       <button className="miBoton">NUESTROS VINOS</button>
+      </a>
       </div>
             </div>
             

@@ -42,7 +42,7 @@ const Navbar = () => {
                         <Link href="/productos" className="nav-link">Productos</Link>
                         <Link href="/tarjeta-regalo" className="nav-link">Tarjeta de regalo</Link>
                     </ul>
-                    <Link href="/nosotros">
+                    <Link href="/">
                         <Image src="/assets/logo-ppal-jabu.png" alt="Descripción de la imagen" width={150} height={100} className='logo-mediaq'/>
                     </Link>
                     <ul className="ul-nav-redes">
@@ -60,8 +60,10 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-            <div className="logo-toggle">
+            <div className="logo-toggle-r">
+            <Link href="/">
                 <Image src="/assets/logo-ppal-jabu.png" alt="Descripción de la imagen" width={140} height={70} style={{ marginTop: 30 }} className='logo-img'/>
+            </Link>
                 <div className={`toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
                     <span className="span-nav"></span>
                     <span className="span-nav"></span>

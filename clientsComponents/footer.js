@@ -15,9 +15,9 @@ const Footer = () => {
                     <ul className="ul-nav-foo">
                         <Link href="/nosotros" className="nav-link">Nosotros</Link>
                         <Link href="/carta" className="nav-link">Carta</Link>
-                        <Link href="/productos" className="nav-link">Embutidos</Link>
-                        <Link href="/productos" className="nav-link">Bodega</Link>
-                        <Link href="/tarjeta-regalo" className="nav-link">Regalo</Link>
+                        <Link href="/embutidos" className="nav-link">Embutidos</Link>
+                        <Link href="/bodegas" className="nav-link">Bodega</Link>
+                        <Link href="/regalo" className="nav-link">Regalo</Link>
                     </ul>
                     <ul className="ul-nav-redes-foo">
                         <Link href="/reservas" className="nav-link">Reservas</Link>

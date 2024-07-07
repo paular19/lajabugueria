@@ -101,7 +101,9 @@ export default function Home() {
       </div>        
       </div> 
       <div className="boton-posicion-seccion2">
+      <a href="/carta">
       <button className="miBoton">TODOS LOS PLATILLOS</button>
+      </a>
       </div>
       </div>
       <div class="linea-con-punto2">

@@ -169,9 +169,11 @@ export default function Carta() {
 
         {visibleCount < itemsToRender.length && (
           <div className="padding-boton">
+             <a href="/carta">
           <button className="miBoton" onClick={showMore}>
             VER MÁS PLATOS
           </button>
+          </a>
           </div>
         )}
       </div>
@@ -195,7 +197,9 @@ export default function Carta() {
               <hr class="linea3" />
             </div>
             <div className="boton-posicion-carta-vinos">
+      <a href="/bodegas">
       <button className="miBoton">NUESTROS VINOS</button>
+      </a>
       </div>
             </div>
             

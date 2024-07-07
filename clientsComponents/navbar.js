@@ -77,12 +77,12 @@ const Navbar = () => {
                     </li>
                         <Link href="/tarjeta-regalo" className="nav-link">Tarjeta de regalo</Link>
                     </ul>
-                    <Link href="/nosotros">
+                    <Link href="/">
                         <Image src="/assets/logo-ppal-jabu.png" alt="Descripción de la imagen" width={150} height={100} className='logo-mediaq' />
                     </Link>
                     <ul className="ul-nav-redes">
                         <Link href="/reservas" className="nav-link">Reservas</Link>
-                        <Link href="/eventos" className="nav-link">Eventos</Link>
+                        <Link href="/evento" className="nav-link">Eventos</Link>
                         <Link href="/contacto" className="nav-link">Contacto</Link>
                         <div className='redes-media'>
                         <Link href="/instagram">
@@ -96,7 +96,9 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="logo-toggle">
+            <Link href="/">
                 <Image src="/assets/logo-ppal-jabu.png" alt="Descripción de la imagen" width={140} height={70} style={{ marginTop: 30 }} className='logo-img'/>
+            </Link>
                 <div className={`toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
                     <span className="span-nav"></span>
                     <span className="span-nav"></span>

@@ -41,7 +41,9 @@ export default function Bodegas() {
               <hr class="linea3" />
             </div>
             <div className="boton-posicion-carta-vinos">
+      <a href="/embutidos">
       <button className="miBoton">NUESTROS EMBUTIDOS</button>
+      </a>
       </div>
             </div>
             
