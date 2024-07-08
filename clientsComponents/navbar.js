@@ -68,10 +68,10 @@ const Navbar = () => {
                         {showProductsMenu && (
     <ul className="sub-menu">
         <li className="nav-link-esp">
-            <Link href="/bodegas" className="nav-link">Comida</Link>
+            <Link href="/bodegas" className="nav-link">Bodegas</Link>
         </li>
         <li className="nav-link-esp">
-            <Link href="/embutidos" className="nav-link">Bebidas</Link>
+            <Link href="/embutidos" className="nav-link">Embutidos</Link>
         </li>
     </ul>)}
                     </li>

@@ -48,7 +48,6 @@ a {
 .text-carru-bod{
   text-align: center;
   font-size: 24px;
-  width: 300px;
   margin-left: 18px;
   font-family: "the-seasons";
 }
@@ -511,6 +510,11 @@ font-weight: 100;
   gap: 101px;
   margin-left: 330px;
 }
+
+.siguiente {
+  cursor: pointer;
+  width: 47px;
+}
 .boton-siguiente{
   background-color: transparent;
   border: none;
@@ -519,21 +523,17 @@ font-weight: 100;
 .boton-siguiente-r2{
   background-color: transparent;
   border: none;
-  margin-right: -40px;
+  cursor: pointer;
 }
 
 .boton-siguiente-s-r{
   background-color: transparent;
   border: none;
-  margin-left: -40px;
 }
 
 .boton-siguiente-r {
   background-color: transparent;
   border: none;
-  position: absolute;
-  margin-left: 1000px;
-  margin-top: 224px;
 }
 .img-nosotros{
   border-radius: 5px;
@@ -1646,6 +1646,9 @@ color: #878179;
   .barrita-botones-carta {
     width: 81%;
     gap: 57px;
+}
+.titulo-generico-nosotros-r {
+  margin-left: 67px;
 }}
 
 
@@ -2429,6 +2432,15 @@ margin-top: 8px;
   .preguntasfrecuentes-container {
     gap: 34px;
     margin-left: 15px;
+}
+.logo-toggle-r {
+  margin-left: 348px;
+}
+.toggle {
+  margin-top: 73px;
+}
+.carrusel-bodega{
+  margin-left: -4px;
 }}
 
 
@@ -2598,6 +2610,9 @@ margin-top: 8px;
   gap: 10px;
   display: flex;
   margin-left: 6px;
+}
+.titulo-generico-nosotros-r {
+  margin-left: 18px;
 }
 }
 
@@ -2798,12 +2813,12 @@ margin-top: 8px;
 .boton-siguiente-r2 {
   background-color: transparent;
   border: none;
-  margin-right: -70px;
 }
 .boton-siguiente-s-r {
   background-color: transparent;
   border: none;
-  margin-left: -70px;
+  position: sticky;
+  z-index: 2;
 }
 .padding-esp {
   padding-left: 456px;
@@ -3076,12 +3091,8 @@ height: 450px;
 .titulo-generico-nosotros-r {
   margin-left: -8px;
 }
-.boton-siguiente-r2 {
-  margin-right: -99px;
-}
-.boton-siguiente-s-r {
-  margin-left: -99px;
-}
+
+
 .text-carru-bod {
   text-align: center;
   font-size: 21px;}
@@ -3160,6 +3171,9 @@ height: 450px;
 }
 .logo-toggle-r {
   margin-left: 262px;
+}
+.titulo-generico-nosotros-r {
+  margin-left: -30px;
 }}
 @media (max-width: 640px){
   .container-seccion1 {
@@ -3252,12 +3266,8 @@ height: 450px;
     margin-left: -210px;
     flex-direction: column;
 }
-.boton-siguiente-r2 {
-  margin-right: -39px;
-}
-.boton-siguiente-s-r {
-  margin-left: -39px;
-}
+
+
 .text-carru-bod {
   margin-left: 40px;
   font-size: 24px;
@@ -3712,6 +3722,9 @@ height: 450px;
 .logo-toggle-r {
   margin-left: 173px;
 }
+.titulo-generico-nosotros-r {
+  margin-left: -21px;
+}
 }
 @media (max-width: 480px){
   .logo-toggle {
@@ -3913,6 +3926,15 @@ height: 450px;
 }
 .logo-toggle-r {
   margin-left: 143px;
+}
+.titulo-generico-nosotros-r {
+  margin-left: 12px;
+  text-align: center;
+  font-size: 24px;
+}
+.cards-bodega {
+  display: flex;
+  position: relative;
 }
 }
 
@@ -4117,6 +4139,22 @@ height: 450px;
 .logo-toggle-r {
   margin-left: 119px;
 }
+.cards-bodega {
+  display: flex;
+  position: relative;
+}
+.cards-bodega {
+  display: flex;
+  position: relative;
+  margin-left: -84px;
+  z-index: 1;
+}
+.boton-siguiente-r2 {
+  background-color: transparent;
+  border: none;
+  position: sticky;
+  z-index: 2;
+}
 }
 @media (max-width: 414px){
 .logo-toggle {
@@ -4215,12 +4253,8 @@ height: 450px;
   width: 384px;
   background-position-X: -444px;
 }
-.boton-siguiente-r2 {
-  margin-right: -75px;
-}
-.boton-siguiente-s-r{
-  margin-left: -75px;
-}
+
+
 .padding-esp {
   padding-left: 136px;
   width: 344px;
@@ -4426,6 +4460,13 @@ height: 450px;
 }
 .logo-toggle-r {
   margin-left: 93px;
+}
+.titulo-linea-carta {
+  margin-left: 3%;
+  margin-top: 40px;
+}
+.boton-posicion-carta-vinos {
+  margin-left: 118px;
 }
 }
 @media (max-width: 375px){

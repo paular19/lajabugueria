@@ -30,6 +30,31 @@ const Navbar = () => {
             link.style.color = activeLink === link.textContent ? '#D5B56E' : '#FFFFFF';
         });
     }, [activeLink]);
+    useEffect(() => {
+        const links = document.querySelectorAll('.nav-link-esp');
+
+        links.forEach(link => {
+            link.addEventListener('mouseover', () => {
+                link.style.color = '#D5B56E'; // Cambia esto al color dorado
+            });
+            link.addEventListener('mouseout', () => {
+                link.style.color = activeLink === link.textContent ? '#D5B56E' : '#FFFFFF';  // Cambia esto al color original de tus enlaces
+            });
+            link.addEventListener('click', () => {
+                setActiveLink(link.textContent);
+            });
+        });
+    }, []);
+
+    useEffect(() => {
+        const links = document.querySelectorAll('.nav-link-esp');
+
+        links.forEach(link => {
+            link.style.color = activeLink === link.textContent ? '#D5B56E' : '#FFFFFF';
+        });
+    }, [activeLink]);
+
+    const [showProductsMenu, setShowProductsMenu] = useState(false);
 
 
     return (
@@ -39,7 +64,17 @@ const Navbar = () => {
                     <ul className="ul-nav">
                         <Link href="/nosotros" className="nav-link">Nosotros</Link>
                         <Link href="/carta" className="nav-link">Carta</Link>
-                        <Link href="/productos" className="nav-link">Productos</Link>
+                        <li className="nav-link-esp" onClick={() => setShowProductsMenu(!showProductsMenu)}>Productos ▾
+                        {showProductsMenu && (
+    <ul className="sub-menu">
+        <li className="nav-link-esp">
+            <Link href="/bodegas" className="nav-link">Bodegas</Link>
+        </li>
+        <li className="nav-link-esp">
+            <Link href="/embutidos" className="nav-link">Embutidos</Link>
+        </li>
+    </ul>)}
+                    </li>
                         <Link href="/tarjeta-regalo" className="nav-link">Tarjeta de regalo</Link>
                     </ul>
                     <Link href="/">

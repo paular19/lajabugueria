@@ -31,8 +31,7 @@ const Carousel = () => {
         setCardsPerPage(1); // Muestra solo 1 tarjeta
       } else if (windowWidth <= 1240) {
         setCardsPerPage(2);
-      } else {
-        setCardsPerPage(3);
+      
       }
     };
 
@@ -72,10 +71,11 @@ const Carousel = () => {
 
   return (
     <div className="carrusel-bodega">
-      <div className="cards-bodega">
-      <button onClick={prevA} className="boton-siguiente-r2">
+       <button onClick={prevA} className="boton-siguiente-r2">
         <Image src={Anterior} alt="" className="siguiente"/>
         </button>
+      <div className="cards-bodega">
+     
         {cardsA.slice(index, index + cardsPerPage).map((card, i) => (
   <div key={i} className="card-bodega">
     <Image src={card.src} alt="" className="img-nosotros" width={381} height={506}/>
