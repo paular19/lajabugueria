@@ -25,10 +25,10 @@ const Footer = () => {
                         <Link href="/contacto" className="nav-link">Contacto</Link>
                     </ul>
                     <div className='redes-footer'>
-                    <Link href="/instagram">
+                    <Link href="https://www.instagram.com/lajabugueria?igsh=MXdhcHMzb2FhYXNtZA%3D%3D" target="_blank">
                             <Image src="/assets/instagram-jabu.png" alt="Descripción de la imagen" width={20} height={20} />
                         </Link>
-                        <Link href="/facebook">
+                        <Link href="https://www.facebook.com/lajabugueria" target="_blank">
                             <Image src="/assets/fb-jabu.png" alt="Descripción de la imagen" width={20} height={20} />
                         </Link>
                     </div>

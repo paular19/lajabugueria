@@ -3,17 +3,17 @@ import { useForm, ValidationError } from "@formspree/react";
 import Image from 'next/image'
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm("moqgyvqg");
+  const [state, handleSubmit] = useForm("xblrlaeb");
 
   if (state.succeeded) {
-    return <p>Reserva enviada! Estaremos en contacto</p>;
+    return <p className="mensaje-enviado">Mensaje enviado! Estaremos en contacto</p>;
   }
 
   return (
     <form onSubmit={handleSubmit} className="form-contacto-evento">
       <div className="input-field">
       <label for="full-name" className="nombre"></label>
-    <input type="text" name="name" id="full-name" placeholder="Nombre y Apellido" required="" className="input-contacto-nombre"/>
+    <input type="text" name="nombre" id="full-name" placeholder="Nombre y Apellido" required="" className="input-contacto-nombre"/>
       </div>
       <div className="cuadritos1">
       <div className="input-field">
@@ -29,7 +29,7 @@ export default function ContactForm() {
     <div className="cuadritos1">
     <div className="input-field">
     <label for="full-name" className="nombre"></label>
-    <textarea name="nombre" id="nombre" placeholder="Mensaje" required="" className="input-contacto-msj"></textarea>
+    <textarea name="mensaje" id="nombre" placeholder="Mensaje" required="" className="input-contacto-msj"></textarea>
     </div>
     </div>
       <ValidationError prefix="Message" field="message" errors={state.errors} />

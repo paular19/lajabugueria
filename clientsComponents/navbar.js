@@ -75,7 +75,7 @@ const Navbar = () => {
         </li>
     </ul>)}
                     </li>
-                        <Link href="/tarjeta-regalo" className="nav-link">Tarjeta de regalo</Link>
+                        <Link href="/regalo" className="nav-link">Tarjeta de regalo</Link>
                     </ul>
                     <Link href="/">
                         <Image src="/assets/logo-ppal-jabu.png" alt="Descripción de la imagen" width={150} height={100} className='logo-mediaq' />
@@ -85,10 +85,10 @@ const Navbar = () => {
                         <Link href="/evento" className="nav-link">Eventos</Link>
                         <Link href="/contacto" className="nav-link">Contacto</Link>
                         <div className='redes-media'>
-                        <Link href="/instagram">
+                        <Link href="https://www.instagram.com/lajabugueria?igsh=MXdhcHMzb2FhYXNtZA%3D%3D" target="_blank">
                             <Image src="/assets/instagram-jabu.png" alt="Descripción de la imagen" width={20} height={20} />
                         </Link>
-                        <Link href="/facebook">
+                        <Link href="https://www.facebook.com/lajabugueria" target="_blank">
                             <Image src="/assets/fb-jabu.png" alt="Descripción de la imagen" width={20} height={20} />
                         </Link>
                         </div>

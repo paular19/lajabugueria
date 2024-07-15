@@ -17,6 +17,7 @@ import Img14 from '../public/assets/vino14.png';
 import Img15 from '../public/assets/vino15.png';
 import Img16 from '../public/assets/vino16.png';
 import Img17 from '../public/assets/vino17.png';
+import Img18 from '../public/assets/vino18.png';
 import Anterior from '../public/assets/anterior-bodega.png';
 import Siguiente from '../public/assets/siguiente-bodega.png';
 
@@ -68,6 +69,7 @@ const Carousel = () => {
     { src: Img15, titulo: "Ribera del Duero - Pago de Carraovejas" , subtitulo: "Vino tinto", precio: "56,90€"},
     { src: Img16, titulo: "Gran Enemigo Gualtallary" , subtitulo: "Vino tinto", precio: "130€"},
     { src: Img17, titulo: "D.O Ribera del duero - Jaros (Edición Limitada)" , subtitulo: "Vino blanco", precio: "49,90€"},
+    { src: Img18, titulo: "D.O Utiel-Requena - Nodus Ocho Encinas" , subtitulo: "Vino tinto", precio: "49,95€"},
   ];
 
   return (

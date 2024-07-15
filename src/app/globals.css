@@ -1620,6 +1620,16 @@ color: #878179;
 .ul-nav-redes{
   margin-top: 42px;
 }
+.mensaje-enviado{
+  font-family: "inter";
+  font-weight: 100;
+}
+.mensaje-enviado-msj {
+  font-family: "inter";
+  font-weight: 100;
+  margin-top: 47px;
+  margin-left: -141px;
+}
 @media (max-width: 1440px) {
   .container-cards-seccion-carta {
     padding-left: 117px;
