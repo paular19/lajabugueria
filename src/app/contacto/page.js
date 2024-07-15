@@ -27,17 +27,17 @@ export default function Contacto() {
       <ContactFormMsj/> 
       <div className="icons-seccion1-contacto">
       <p className="p-seccion1-evento">También puede contactarnos</p>
-          <div className="contenedor-icon-txt">
+          <div className="contenedor-icon-txt-2">
           <Image src="/assets/telefono-jabu.png" alt="Descripción de la imagen" width={23} height={20} /> 
           <h3 className="txt-icon1-2">96 155 73 01</h3>
           </div>
           <hr className="linea-vector-contacto"></hr>
-          <div className="contenedor-icon-txt">
+          <div className="contenedor-icon-txt-2">
           <Image src="/assets/ubi-jabu.png" alt="Descripción de la imagen" width={20} height={20} /> 
           <h3 className="txt-icon-2">Camí Real, 179 B 46900 TORRENT Valencia</h3>
           </div>
           <hr className="linea-vector-contacto"></hr>
-          <div className="contenedor-icon-txt">
+          <div className="contenedor-icon-txt-2">
           <Image src="/assets/horario-jabu.png" alt="Descripción de la imagen" width={20} height={20} /> 
           <h3 className="txt-icon-2">Lunes a sábado 8:30 - 17:30 h</h3>
           </div>

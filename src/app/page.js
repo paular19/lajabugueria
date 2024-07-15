@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       
         </div>
-        <div className="container-img-seccion1">
+        <div className="img-hero-ppal">
         <Image src="/assets/img-hero-home.png" alt="Descripción de la imagen" width={550} height={400} className="plato-hero"/> 
         </div>
       </div>

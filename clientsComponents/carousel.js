@@ -68,10 +68,10 @@ const Carousel = () => {
       </div>
       <div className='flechas-carrusel'>
       <button onClick={prevA} className="boton-siguiente">
-        <Image src={Anterior} alt="" className="siguiente"/>
+        <Image src={Anterior} alt="" className="siguiente-rr"/>
         </button>
         <button onClick={nextA} className="boton-siguiente">
-        <Image src={Siguiente} alt="" className="siguiente"/>
+        <Image src={Siguiente} alt="" className="siguiente-rr"/>
         </button>
         </div>
     </div>
