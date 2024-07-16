@@ -1627,8 +1627,14 @@ color: #878179;
 .mensaje-enviado-msj {
   font-family: "inter";
   font-weight: 100;
-  margin-top: 47px;
-  margin-left: -141px;
+  margin-top: 86px;
+  margin-left: -106px;
+  font-size: 13px;
+  margin-right: 95px;
+}
+.boton-posicion-carta-vinos {
+  margin-left: 317px;
+  margin-top: 97px;
 }
 @media (max-width: 1440px) {
   .container-cards-seccion-carta {
@@ -1694,6 +1700,13 @@ color: #878179;
   display: flex;
   flex-direction: column;
   margin-top: 140px;
+}
+.container-cards-seccion-carta {
+  padding-left: 33px;
+}
+.boton-posicion-carta-vinos {
+  margin-left: 321px;
+  margin-top: 97px;
 }}
 
 @media (max-width: 1366px) {
@@ -1990,6 +2003,14 @@ margin-bottom: -60px;
 }
 .mapa {
   width: 883px;
+}
+.home-nav-logo-back {
+  width: 97%;
+  margin-left: 15px;
+}
+.seccion-nocarru {
+  gap: 13px;
+  padding-left: 20px;
 }
 }
 @media (max-width: 950px) {
@@ -2732,6 +2753,14 @@ margin-top: 8px;
 }
 .mapa {
   width: 857px;
+}
+.contacto-icono-contacto {
+  display: flex;
+  flex-direction: row;
+  gap: 43px;
+  margin-left: 114px;
+  margin-top: -50px;
+  margin-bottom: -18px;
 }}
 
 
@@ -3129,6 +3158,14 @@ margin-top: 8px;
 }
 .linea-cuadro-pregunta {
   width: 361px;}
+  .p-seccion1-evento {
+    width: 321px;
+    margin-top: 10%;
+    font-size: 13px;
+    color: #F9F9F9;
+    font-weight: 100;
+    font-family: "inter";
+}
 }
 
 @media (max-width: 800px){
@@ -3334,6 +3371,15 @@ margin-top: 8px;
   display: flex;
   position: relative;
   gap: 36px;
+}
+.container-seccion1-evento {
+  margin-left: -443px;
+}
+.contacto-icono-contacto {
+  margin-left: 83px;
+}
+.container-seccion1-evento {
+  margin-left: -468px;
 }}
 
 
@@ -3546,6 +3592,9 @@ height: 450px;
 }
 .p-seccion1-evento {
   width: 300px;;
+}
+.container-seccion1-ppal {
+  margin-left: 167px;
 }}
 @media (max-width: 640px){
   .container-seccion1 {
@@ -3712,6 +3761,16 @@ height: 450px;
 }
 .texto-izquierdo-preguntas{
   margin-left: -59px;
+}
+.titulo-nosotros {
+  margin-top: 151px;
+  margin-bottom: 13px;
+  margin-left: -37px;
+}
+.titulo-carta {
+  margin-top: 69px;
+  margin-bottom: 98px;
+  margin-left: -23px;
 }
 }
 @media (max-width: 600px){
@@ -4167,6 +4226,14 @@ height: 450px;
   margin-left: -183px;
   flex-direction: column;
 }
+.container-seccion1-evento {
+  margin-left: -489px;
+}
+.titulo-carta {
+  margin-top: 69px;
+  margin-bottom: 98px;
+  margin-left: -20px;
+}
 }
 @media (max-width: 480px){
   .logo-toggle {
@@ -4416,6 +4483,17 @@ height: 450px;
   gap: 50px;
   margin-left: -157px;
   flex-direction: column;
+}
+.carta-section-content {
+  margin-left: -30px;
+}
+.titulo-linea-carta {
+  margin-left: 7%;
+  margin-top: 40px;
+}
+.container-seccion1-bod {
+  margin-left: 170px;
+  margin-top: -155px;
 }
 }
 
@@ -4800,7 +4878,14 @@ height: 450px;
   }
   .logo-toggle-r {
     margin-left: 19px;
-  }}
+  }
+  .container-seccion1-ppal {
+    margin-left: 177px;
+    margin-top: 275px;
+}
+.carta-section-content {
+  margin-left: -26px;
+}}
   @media (max-width: 412px){
     .linea-con-punto-carta {
       width: 169px;
@@ -4852,6 +4937,11 @@ height: 450px;
 .titulo-linea-carta {
   margin-left: 2%;
   margin-top: 40px;
+}
+.titulo-nosotros {
+  margin-top: 151px;
+  margin-bottom: 13px;
+  margin-left: -15px;
 }
 
   }
@@ -5046,6 +5136,13 @@ height: 450px;
 .container-seccion1-bod {
   margin-left: 184px;
   margin-top: -155px;
+}
+.boton-posicion-seccion2 {
+  margin-right: 114px;
+}
+.container-seccion1-evento-r {
+  margin-left: -27px;
+  margin-top: 40px;
 }}
 @media (max-width: 375px){
 .container-titulo-icono-seccion1 {
@@ -5190,6 +5287,16 @@ height: 450px;
   margin-left: 192px;
   margin-top: -155px;
 }
+.boton-posicion-seccion2 {
+  margin-right: 105px;
+}
+.container-img-seccion1-card {
+  margin-left: -178px;
+}
+.container-titulo-icono-seccion1-evento {
+  margin-top: 86px;
+  margin-left: 60px;
+}
 }
 @media (max-width: 360px){
   .boton-posicion-seccion2 {
@@ -5328,6 +5435,12 @@ height: 450px;
 }
 .boton-posicion-carta-vinos {
   margin-left: 109px;
+}
+.boton-posicion-seccion2 {
+  margin-right: 98px;
+}
+.seccion-nocarru {
+  padding-left: 2px;
 }
 }
 @media (max-width: 353px){
@@ -5680,6 +5793,16 @@ height: 450px;
 .titulo-linea-carta {
   margin-left: 0%;
   margin-top: 40px;
+}
+.img-hero-ppal {
+  margin-left: -64px;
+  margin-bottom: 22px;
+}
+.container-cards-embutidos {
+  margin-top: 12px;
+}
+.text-contacto-reserva-nue {
+  margin-left: -13px;
 }
 }
 @media (max-width: 280px){
@@ -6097,7 +6220,23 @@ height: 450px;
   margin-left: 0px;
   font-size: 28px;
 }
+.logo-toggle {
+  margin-right: 20px;
+  margin-left: 8px;
 }
+.txt-icon1 {
+  margin-top: 7px;
+}
+.icons-seccion1 {
+  gap: 13px;
+}
+.text-carru-bod {
+  font-size: 21px;
+  width: 261px;
+}
+.carrusel-bodega {
+  margin-bottom: 92px;
+}}
 @media (max-width: 240px){
   .plato-hero {
     margin-left: -193px;
@@ -6472,5 +6611,23 @@ height: 450px;
 }
 .boton-posicion-carta-vinos {
   margin-left: 53px;
+}
+.container-seccion1-evento {
+  margin-left: -479px;
+}
+.p-seccion1-evento-r {
+  width: 191px;
+}
+.titulo-carta {
+  margin-left: 7px;
+}
+.titulo-generico-carta {
+  margin-left: -30px;
+}
+.text-carru-bod {
+  font-size: 17px;
+}
+.text-carru-bod {
+  width: 223px;
 }
 }

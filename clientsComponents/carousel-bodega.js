@@ -28,7 +28,7 @@ const Carousel = () => {
   useEffect(() => {
     const handleResize = () => {
       const windowWidth = window.innerWidth;
-      if (windowWidth <= 600) {
+      if (windowWidth <= 640) {
         setCardsPerPage(1); // Agrega la opción de 600px
       } else if (windowWidth <= 1024) {
         setCardsPerPage(2); // Muestra solo 1 tarjeta
