@@ -29,7 +29,7 @@ export default function Contacto() {
       <p className="p-seccion1-evento">También puede contactarnos</p>
           <div className="contenedor-icon-txt-2">
           <Image src="/assets/telefono-jabu.png" alt="Descripción de la imagen" width={23} height={20} /> 
-          <h3 className="txt-icon1-2">96 155 73 01</h3>
+          <h3 className="txt-icon1-2">+34611841205</h3>
           </div>
           <hr className="linea-vector-contacto"></hr>
           <div className="contenedor-icon-txt-2">

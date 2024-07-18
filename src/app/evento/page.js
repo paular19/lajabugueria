@@ -20,7 +20,7 @@ export default function Evento() {
         
         </div>
         <div className="container-img-seccion1">
-        <Image src="/assets/copa-nueva.png" alt="Descripción de la imagen" width={300} height={400} className="vino"/> 
+        <Image src="/assets/copadevino-remplazo.png" alt="Descripción de la imagen" width={300} height={400} className="vino"/> 
         </div>
       </div>
       
@@ -33,7 +33,7 @@ export default function Evento() {
       <div className="vectores-blancos">
       <p className="parrafo-contacto-txt2"><Image src="/assets/hora-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>Lunes a sábado de 8:30 a 17:30 hs</p>
       <hr className="linea-vector-ev"></hr>
-      <p className="parrafo-contacto-txt2"><Image src="/assets/telefono-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>0387 520-5839</p>
+      <p className="parrafo-contacto-txt2"><Image src="/assets/telefono-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>+34 611841205</p>
       <hr className="linea-vector-ev"></hr>
       <p className="parrafo-contacto-txt2"><Image src="/assets/ubi-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>Camí Real, 179 B 46900 TORRENT Valencia</p>
       </div>

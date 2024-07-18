@@ -81,7 +81,7 @@ const Carousel = () => {
      
         {cardsA.slice(index, index + cardsPerPage).map((card, i) => (
   <div key={i} className="card-bodega">
-    <Image src={card.src} alt="" className="img-nosotros-2" width={150} height={506}/>
+    <Image src={card.src} alt="" className="img-nosotros-2" width={150} height={540}/>
     <p className='text-carru-bod'>{card.titulo}</p>
     <p className='text-carru-bod-s'>{card.subtitulo}</p>
     <p className='text-carru-bod-p'>{card.precio}</p></div>

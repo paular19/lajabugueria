@@ -27,42 +27,42 @@ export default function Embutidos() {
     
       <div className='container-cards-embutidos'>
         <div className='container-card-embutidos'>
-        <Image src="/assets/embutido-img1.png" alt="Descripción de la imagen" width={480} height={257}className="img-emb-card"/> 
+        <Image src="/assets/embutido-img1.png" alt="Descripción de la imagen" width={480} height={220}className="img-emb-card"/> 
         <h1 className='titulo-card-embutido'>Selección negra</h1>
         <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
         <h1 className='precio-card-embutido'>75.05€/kg</h1>
         </div>
 
         <div className='container-card-embutidos'>
-        <Image src="/assets/embutido-img2.png" alt="Descripción de la imagen" width={480} height={257} className="img-emb-card"/> 
+        <Image src="/assets/embutido-img2.png" alt="Descripción de la imagen" width={480} height={220} className="img-emb-card"/> 
         <h1 className='titulo-card-embutido'>Selección negra</h1>
         <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
         <h1 className='precio-card-embutido'>75.05€/kg</h1>
         </div>
 
         <div className='container-card-embutidos'>
-        <Image src="/assets/embutido-img3.png" alt="Descripción de la imagen" width={480} height={257} className="img-emb-card"/> 
+        <Image src="/assets/embutido-img3.png" alt="Descripción de la imagen" width={480} height={220} className="img-emb-card"/> 
         <h1 className='titulo-card-embutido'>Selección negra</h1>
         <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
         <h1 className='precio-card-embutido'>75.05€/kg</h1>
         </div>
 
         <div className='container-card-embutidos'>
-        <Image src="/assets/embutido-img4.png" alt="Descripción de la imagen" width={480} height={257} className="img-emb-card"/> 
+        <Image src="/assets/embutido-img4.png" alt="Descripción de la imagen" width={480} height={220} className="img-emb-card"/> 
         <h1 className='titulo-card-embutido'>Selección negra</h1>
         <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
         <h1 className='precio-card-embutido'>75.05€/kg</h1>
         </div>
 
         <div className='container-card-embutidos'>
-        <Image src="/assets/embutido-img5.png" alt="Descripción de la imagen" width={480} height={257} className="img-emb-card"/> 
+        <Image src="/assets/embutido-img5.png" alt="Descripción de la imagen" width={480} height={220} className="img-emb-card"/> 
         <h1 className='titulo-card-embutido'>Selección negra</h1>
         <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
         <h1 className='precio-card-embutido'>75.05€/kg</h1>
         </div>
 
         <div className='container-card-embutidos'>
-        <Image src="/assets/embutido-img6.png" alt="Descripción de la imagen" width={480} height={257} className="img-emb-card"/> 
+        <Image src="/assets/embutido-img6.png" alt="Descripción de la imagen" width={480} height={220} className="img-emb-card"/> 
         <h1 className='titulo-card-embutido'>Selección negra</h1>
         <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
         <h1 className='precio-card-embutido'>75.05€/kg</h1>
@@ -70,7 +70,7 @@ export default function Embutidos() {
       </div>
 
       <div className='banda-vinos'>
-      <Image src="/assets/banda-vinos-carta.png" alt="Descripción de la imagen" 
+      <Image src="/assets/nuevabanda-vino.png" alt="Descripción de la imagen" 
   width={1000} 
   height={1000} 
   className='vinos-img-banda'
@@ -100,7 +100,7 @@ export default function Embutidos() {
       <div className="vectores-blancos-def">
       <p className="parrafo-contacto-txt2-def"><Image src="/assets/hora-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>Lunes a sábado de 8:30 a 17:30 hs</p>
       <hr className="linea-vector-res"></hr>
-      <p className="parrafo-contacto-txt2-def"><Image src="/assets/telefono-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>0387 520-5839</p>
+      <p className="parrafo-contacto-txt2-def"><Image src="/assets/telefono-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>+34 611841205</p>
       <hr className="linea-vector-res"></hr>
       <p className="parrafo-contacto-txt2-def"><Image src="/assets/ubi-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>Camí Real, 179 B 46900 TORRENT Valencia</p>
       </div>

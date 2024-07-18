@@ -24,7 +24,7 @@ const Preguntas = () => {
 <div className="preguntasfrecuentes-container">
 <div className="texto-izquierdo-preguntas">
 <h1 className ="titulo-seccion1-con">Preguntas <spam className="spam-color">frecuentes</spam></h1>
-          <p className="p-seccion1-evento">¡No se quede con dudas. Puede revisar nuestra sección de preguntas frecuentes...</p>
+          <p className="p-seccion1-evento">¡No se quede con dudas! Puede revisar nuestra sección de preguntas frecuentes...</p>
 </div>
   <div className="peguntas-yrespuestas">
   {preguntas.map((pregunta) => (

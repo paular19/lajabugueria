@@ -27,7 +27,7 @@ export default function Home() {
           </div>
 
           <div className="contenedor-icon-txt">
-          <Image src="/assets/ubi-jabu.png" alt="Descripción de la imagen" width={20} height={20} /> 
+          <Image src="/assets/ubi-jabu.png" alt="Descripción de la imagen" width={17} height={19} /> 
           <h3 className="txt-icon">Camí Real, 179 B 46900 TORRENT Valencia</h3>
           </div>
 
@@ -142,7 +142,7 @@ export default function Home() {
       <div className="vectores-blancos-def">
       <p className="parrafo-contacto-txt2-def"><Image src="/assets/hora-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>Lunes a sábado de 8:30 a 17:30 hs</p>
       <hr className="linea-vector-res"></hr>
-      <p className="parrafo-contacto-txt2-def"><Image src="/assets/telefono-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>0387 520-5839</p>
+      <p className="parrafo-contacto-txt2-def"><Image src="/assets/telefono-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>+34 611841205</p>
       <hr className="linea-vector-res"></hr>
       <p className="parrafo-contacto-txt2-def"><Image src="/assets/ubi-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>Camí Real, 179 B 46900 TORRENT Valencia</p>
       </div>

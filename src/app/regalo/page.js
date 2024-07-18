@@ -36,7 +36,7 @@ export default function Evento() {
       </p>
       <div className="vectores-blancos">
       
-      <p className="parrafo-contacto-txt2"><Image src="/assets/telefono-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>0387 520-5839</p>
+      <p className="parrafo-contacto-txt2"><Image src="/assets/telefono-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>+34 611841205</p>
       <hr className="linea-vector-card"></hr>
       <p className="parrafo-contacto-txt2"><Image src="/assets/mail-evento.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>lajabugueria@live.com</p>
       </div>
