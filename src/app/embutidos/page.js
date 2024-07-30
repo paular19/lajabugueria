@@ -92,7 +92,7 @@ export default function Embutidos() {
 </div>
 
      
-
+{/* 
 <div className="todo-contacto-reserva-def">
       <div className="text-contacto-reserva-def">
       <h2 className="titulo-contacto-txt-def">Reserve su<spam className="spam-titulocontacto"> mesa</spam></h2>
@@ -106,7 +106,7 @@ export default function Embutidos() {
       </div>
       </div>
       <ContactForm/> 
-      </div>
+      </div> */}
       <Footer/>
     </main>
   );

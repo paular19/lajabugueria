@@ -10,8 +10,8 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="form-contacto-evento">
-      <div className="input-field">
+    <div className="form-contacto-evento">
+      {/* <div className="input-field">
       <label for="full-name" className="nombre"></label>
     <input type="text" name="nombre" id="full-name" placeholder="Nombre y Apellido" required="" className="input-contacto-nombre"/>
       </div>
@@ -38,7 +38,11 @@ export default function ContactForm() {
         ENVIAR
       </button>
       </div>
-      <ValidationError errors={state.errors} />
-    </form>
+      <ValidationError errors={state.errors} /> */}
+      Comunícate con nosotros haciendo click aquí
+      <a href="https://wa.me/34611841205"target="_blank">
+      <Image src="/assets/woo.png" alt="Descripción de la imagen" width={30} height={30} className='woo'/>
+      </a>
+    </div>
   );
 }

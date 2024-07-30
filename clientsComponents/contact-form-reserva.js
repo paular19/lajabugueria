@@ -10,8 +10,8 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="form-contacto-reserva">
-      <p className="reserva-p"><Image src="/assets/Vectoreserva.png" alt="Descripción de la imagen" width={10} height={10}/>Reserve con <spam className="spam-p2">24 horas de anticipación</spam> para asegurar su mesa</p>
+    <div className="form-contacto-reserva">
+      {/* <p className="reserva-p"><Image src="/assets/Vectoreserva.png" alt="Descripción de la imagen" width={10} height={10}/>Reserve con <spam className="spam-p2">24 horas de anticipación</spam> para asegurar su mesa</p>
       <div className="input-field">
       <label for="full-name" className="nombre"></label>
     <input type="text" name="nombre" id="full-name" placeholder="Nombre" required="" className="input-contacto"/>
@@ -92,7 +92,12 @@ export default function ContactForm() {
         ENVIAR
       </button>
       </div>
-      <ValidationError errors={state.errors} />
-    </form>
+      <ValidationError errors={state.errors} /> */}
+
+      <p className="premplazo">Comunícate con nosotros haciendo click aquí</p>
+      <a href="https://wa.me/34611841205"target="_blank">
+      <Image src="/assets/woo.png" alt="Descripción de la imagen" width={30} height={30} className='woo'/>
+      </a>
+    </div>
   );
 }

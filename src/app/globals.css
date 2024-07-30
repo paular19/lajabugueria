@@ -938,8 +938,8 @@ transition: border-color 0.3s #D5B56E;
 .form-contacto-reserva{
   margin-top: 100px;
   margin-bottom: 100px;
+  flex-wrap: wrap;
   display: flex;
-  flex-direction: column;
   gap: 10px;
   background-color: #191919;
   width: 500px;
@@ -1224,18 +1224,19 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   font-family: "inter";
 }
 
-.form-contacto-evento{
+.form-contacto-evento {
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
   background-color: #121212;
-  width: 500px;
+  width: 480px;
   padding-left: 45px;
   padding-top: 40px;
   padding-bottom: 30px;
   border-radius: 3px;
+  flex-wrap: wrap;
 }
 
 .input-contacto-nombre{
@@ -1636,6 +1637,9 @@ color: #878179;
   margin-left: -106px;
   font-size: 13px;
   margin-right: 95px;
+}
+.woo{
+  cursor: pointer;
 }
 .boton-posicion-carta-vinos {
   margin-left: 317px;
@@ -4861,6 +4865,10 @@ height: 450px;
   margin-left: 136px;
   margin-top: 29px;
 }
+.form-contacto-reserva {
+  margin-left: -13px;
+  flex-direction: column;
+}
 }
 @media (max-width: 414px){
 .logo-toggle {
@@ -4927,7 +4935,9 @@ height: 450px;
   margin-left: 216px;
 }
 .form-contacto-evento {
-  padding-left: 50px;}
+  width: 100%;
+  padding-left: 50px;
+}
   .form-contacto-reserva {
     margin-left: 59px;
 }
@@ -4990,7 +5000,12 @@ height: 450px;
 }
 .carta-section-content {
   margin-left: -26px;
-}}
+}
+.premplazo{
+  width: 284px;
+}
+}
+
   @media (max-width: 412px){
     .linea-con-punto-carta {
       width: 169px;
@@ -5100,9 +5115,6 @@ height: 450px;
   width: 352px;
 }
 
-  .form-contacto-evento {
-    padding-left: 79px;
-}
 .text-contacto-reserva-def {
   margin-left: -28px;
 }
@@ -5313,9 +5325,7 @@ height: 450px;
 .text-contacto-reserva-card {
   margin-left: 31px;
 }
-.form-contacto-evento {
-  padding-left: 87px;
-}
+
 .titulo-generico-carta {
   margin-left: -78px;}
   .container-titulo-icono-seccion1 {
@@ -5444,9 +5454,7 @@ height: 450px;
 .text-contacto-reserva-card {
   margin-left: 50px;
 }
-.form-contacto-evento {
-  padding-left: 95px;
-}
+
 .titulo-generico-carta {
   margin-left: -56px;
 }
@@ -5479,9 +5487,7 @@ height: 450px;
 .parrafo-contacto-txt-eve {
   width: 260px;
 }
-.form-contacto-evento {
-  padding-left: 90px;
-}
+
 .linea-vector-ev{
   width: 265px;
 }
@@ -5673,9 +5679,7 @@ height: 450px;
   font-size: 12px;
   width: 266px;
 }
-.form-contacto-evento {
-  padding-left: 100px;
-}
+
 .text-contacto-reserva-def {
   margin-left: -28px;
 }
@@ -5874,9 +5878,7 @@ height: 450px;
   margin-left: 2%;
   margin-top: 40px;
 }
-.form-contacto-evento {
-  padding-left: 97px;
-}
+
 .form-contacto-evento-contacto {
   margin-left: 31px;
   margin-top: 88px;
@@ -5921,6 +5923,12 @@ height: 450px;
   width: 251px;
   height: 458px;
   margin-top: -166px;
+}
+.premplazo {
+  width: 257px;
+}
+.form-contacto-reserva {
+  margin-left: 109px;
 }
 }
 @media (max-width: 280px){
@@ -6061,9 +6069,7 @@ height: 450px;
 .input-contacto-nombre, .input-contacto-asunto {
   width: 221px;
 }
-.form-contacto-evento {
-  padding-left: 132px;
-}
+
 .parrafo-contacto-txt-def {
   width: 199px;
 }
@@ -6368,9 +6374,7 @@ height: 450px;
 .todo-contacto-reserva-event-r {
   margin-left: -31px;
 }
-.form-contacto-evento {
-  padding-left: 150px;
-}}
+}
 @media (max-width: 240px){
   .plato-hero {
     margin-left: -193px;
@@ -6626,9 +6630,7 @@ height: 450px;
 .linea-vector-ev {
   width: 203px;
 }
-.form-contacto-evento {
-  padding-left: 140px;
-}
+
 .input-contacto-msj{
   width: 221px;
 }
@@ -6793,7 +6795,5 @@ height: 450px;
   margin-left: 67px;
   margin-top: 63px;
 }
-.form-contacto-evento {
-  padding-left: 155px;
-}
+
 }

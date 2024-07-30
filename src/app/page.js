@@ -135,7 +135,7 @@ export default function Home() {
         </div>
     
       <Carousel/>
-      <div className="todo-contacto-reserva-def">
+      {/* <div className="todo-contacto-reserva-def">
       <div className="text-contacto-reserva-def">
       <h2 className="titulo-contacto-txt-def">Reserve su<spam className="spam-titulocontacto"> mesa</spam></h2>
       <p className="parrafo-contacto-txt-def">Viva la mejor experiencia gastronómica. Complete el formulario y lo contactaremos.</p>
@@ -148,7 +148,7 @@ export default function Home() {
       </div>
       </div>
       <ContactForm/> 
-      </div>
+      </div> */}
       
       <Footer/>
 

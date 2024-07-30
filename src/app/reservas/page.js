@@ -15,7 +15,7 @@ export default function Evento() {
  <div className="todo-contacto-reserva-def">
       <div className="text-contacto-reserva-def">
       <h2 className="titulo-contacto-txt-def">Reserve su<spam className="spam-titulocontacto"> mesa</spam></h2>
-      <p className="parrafo-contacto-txt-def">Viva la mejor experiencia gastronómica. Complete el formulario y lo contactaremos.</p>
+      <p className="parrafo-contacto-txt-def">Viva la mejor experiencia gastronómica. Tocá el ícono de Whatsapp y contáctanos.</p>
       <div className="vectores-blancos-def">
       <p className="parrafo-contacto-txt2-def"><Image src="/assets/hora-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>Lunes a sábado de 8:30 a 17:30 hs</p>
       <hr className="linea-vector-res"></hr>
