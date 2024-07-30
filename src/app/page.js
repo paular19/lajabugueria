@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Carousel from "../../clientsComponents/carousel";
 import ContactForm from "../../clientsComponents/contact-form";
 import Navbar from "../../clientsComponents/navbar";
+import ButtonFixedWpp from "../../clientsComponents/wpp";
 import Footer from "../../clientsComponents/footer";
 
 
@@ -151,6 +152,7 @@ export default function Home() {
       </div> */}
       
       <Footer/>
+      <ButtonFixedWpp/>
 
     </main>
   );

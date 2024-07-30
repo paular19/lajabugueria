@@ -5,6 +5,7 @@ import ContactFormMsj from "../../../clientsComponents/contact-form-msj";
 import Preguntas from "../../../clientsComponents/preguntas";
 import Navbar from "../../../clientsComponents/navbar";
 import Footer from "../../../clientsComponents/footer";
+import ButtonFixedWpp from "../../../clientsComponents/wpp";
 
 
 
@@ -54,7 +55,7 @@ export default function Contacto() {
       
 
       <Footer/>
-
+      <ButtonFixedWpp/>
     </main>
   );
 }

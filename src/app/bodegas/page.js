@@ -5,6 +5,7 @@ import Navbar from "../../../clientsComponents/navbar";
 import Footer from "../../../clientsComponents/footer";
 import Carouselbo from "../../../clientsComponents/carousel-bodega";
 import ContactForm from "../../../clientsComponents/contact-form";
+import ButtonFixedWpp from "../../../clientsComponents/wpp";
 
 
 export default function Bodegas() {
@@ -63,6 +64,7 @@ export default function Bodegas() {
       <ContactForm/>  
       </div> */}
       <Footer/>
+      <ButtonFixedWpp/>
 
     </main>
   );

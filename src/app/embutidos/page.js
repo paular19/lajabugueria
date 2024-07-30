@@ -5,6 +5,7 @@ import Image from 'next/image'
 import ContactForm from "../../../clientsComponents/contact-form";
 import Navbar from "../../../clientsComponents/navbar";
 import Footer from "../../../clientsComponents/footer";
+import ButtonFixedWpp from "../../../clientsComponents/wpp";
 
 export default function Embutidos() {
 
@@ -108,6 +109,7 @@ export default function Embutidos() {
       <ContactForm/> 
       </div> */}
       <Footer/>
+      <ButtonFixedWpp/>
     </main>
   );
 }

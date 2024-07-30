@@ -4,6 +4,7 @@ import Image from 'next/image'
 import ContactForm from "../../../clientsComponents/contact-form";
 import Navbar2 from "../../../clientsComponents/navbar2";
 import Footer from "../../../clientsComponents/footer";
+import ButtonFixedWpp from "../../../clientsComponents/wpp";
 export default function Nosotros() {
     return (
       <main>
@@ -73,6 +74,7 @@ export default function Nosotros() {
       <ContactForm/> 
       </div>
       <Footer/> 
+      <ButtonFixedWpp/>
          </main>
        );
      }

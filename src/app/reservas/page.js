@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from 'next/image'
 import ContactForm from "../../../clientsComponents/contact-form-reserva";
 import Navbar from "../../../clientsComponents/navbar";
+import ButtonFixedWpp from "../../../clientsComponents/wpp";
 import Footer from "../../../clientsComponents/footer";
 
 
@@ -26,7 +27,7 @@ export default function Evento() {
       </div>
       <ContactForm/> 
       </div>
-    
+      <ButtonFixedWpp/>
       
     </main>
   );

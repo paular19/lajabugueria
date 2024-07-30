@@ -4,6 +4,7 @@ import Image from 'next/image'
 import ContactFormEvent from "../../../clientsComponents/contact-form-evento";
 import Navbar from "../../../clientsComponents/navbar";
 import Footer from "../../../clientsComponents/footer";
+import ButtonFixedWpp from "../../../clientsComponents/wpp";
 
 
 export default function Evento() {
@@ -44,6 +45,7 @@ export default function Evento() {
       {/* <ContactFormEvent/>  */}
       </div>
       <Footer/>
+      <ButtonFixedWpp/>
 
     </main>
   );
