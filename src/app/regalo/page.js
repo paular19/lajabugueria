@@ -42,7 +42,7 @@ export default function Evento() {
       <p className="parrafo-contacto-txt2"><Image src="/assets/mail-evento.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>lajabugueria@live.com</p>
       </div>
       </div>
-      {/* <ContactFormEvent/>  */}
+      <ContactFormEvent/> 
       </div>
       <Footer/>
       <ButtonFixedWpp/>

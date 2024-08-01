@@ -10,7 +10,8 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="form-contacto-evento">
+    <div className="form-contacto-reserva2">
+      <p className="reserva-p"><Image src="/assets/Vectoreserva.png" alt="Descripción de la imagen" width={10} height={10}/>Reserve con <spam className="spam-p2">24 horas de anticipación</spam> para asegurar su mesa</p>
       {/* <div className="input-field">
       <label for="full-name" className="nombre"></label>
     <input type="text" name="nombre" id="full-name" placeholder="Nombre y Apellido" required="" className="input-contacto-nombre"/>
@@ -39,9 +40,9 @@ export default function ContactForm() {
       </button>
       </div>
       <ValidationError errors={state.errors} /> */}
-      Comunícate con nosotros haciendo click aquí
+      <p className="premplazo">Comuníquese con nosotros y reciba atención personalizada</p>
       <a href="https://wa.me/34611841205"target="_blank">
-      <Image src="/assets/woo.png" alt="Descripción de la imagen" width={30} height={30} className='woo'/>
+      <button className="miBoton"><Image src="/assets/wpp-msj.png" alt="Descripción de la imagen" width={20} height={20} className="wpp-msj"/>ENVIAR MENSAJE</button>
       </a>
     </div>
   );

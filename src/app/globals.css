@@ -67,6 +67,14 @@ a {
   align-items: center;
 }
 
+.container-completo-seccion-vieja {
+  background-image: url(/assets/img-viejita-home.png);
+  background-size: cover;
+  background-position-y: -244px;
+  height: 641px;
+  background-repeat: no-repeat;
+}
+
 .container-seccion1{
   display: flex;
   flex-direction: row;
@@ -74,11 +82,13 @@ a {
   align-items: center;
 }
 
-.container-seccion1-ppal{
+.container-seccion1-ppal-home {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  margin-left: 476px;
+  padding-bottom: 83px;
+  padding-top: 53px;
 }
 
 .container-seccion1-bod{
@@ -247,9 +257,12 @@ font-weight: 100;
   font-weight: 500;
 }
 
-.textos-seccion1{
-  margin-left: -275px;
+.textos-seccion1 {
   margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 473px;
 }
 .padding-esp {
   padding-top: 100px;
@@ -359,10 +372,10 @@ font-weight: 100;
   width: 346px;
 }
 
-.plato-precio{
+.plato-precio {
   display: flex;
   flex-direction: row;
-  margin-left: -5px;
+  margin-left: 33px;
   z-index: 2;
 }
 
@@ -935,20 +948,32 @@ transition: border-color 0.3s #D5B56E;
   padding-bottom: 30px;
   border-radius: 3px;
 }
-.form-contacto-reserva{
+.form-contacto-reserva {
   margin-top: 100px;
   margin-bottom: 100px;
-  flex-wrap: wrap;
   display: flex;
-  gap: 10px;
+  flex-direction: column;
+  gap: 35px;
   background-color: #191919;
-  width: 500px;
-  padding-left: 45px;
+  width: 397px;
+  padding-left: 49px;
   padding-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 44px;
   border-radius: 3px;
 }
-
+.form-contacto-reserva2{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  background-color: #121212;
+  width: 397px;
+  padding-left: 49px;
+  padding-top: 40px;
+  padding-bottom: 44px;
+  border-radius: 3px;
+}
 .cuadritos1{
   display: flex;
   flex-direction: row;
@@ -1573,6 +1598,9 @@ color: #878179;
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.premplazo{
+  width: 284px;
+}
 .titulo-card-embutido {
   font-weight: 100;
   margin-left: 32px;
@@ -1644,6 +1672,10 @@ color: #878179;
 .boton-posicion-carta-vinos {
   margin-left: 317px;
   margin-top: 97px;
+}
+.wpp-msj {
+  margin-bottom: -4px;
+  margin-right: 5px;
 }
 /* buttonFixedWpp.jsx: */
 .floating-button {
@@ -1768,6 +1800,12 @@ color: #878179;
   width: 1209px;
   background-position-y: -71px;
 }
+.container-seccion1-ppal-home {
+  margin-left: 328px;
+}
+.textos-seccion1 {
+  margin-left: 330px;
+}
 }
 @media (max-width: 1440px) {
   .container-cards-seccion-carta {
@@ -1840,6 +1878,12 @@ color: #878179;
 .boton-posicion-carta-vinos {
   margin-left: 321px;
   margin-top: 97px;
+}
+.container-completo-seccion-vieja {
+  background-position-y: -125px;
+}
+.container-seccion1-ppal-home, .textos-seccion1{
+  margin-left: 235px;
 }}
 
 @media (max-width: 1366px) {
@@ -1858,6 +1902,9 @@ color: #878179;
 .mapa {
   width: 1036px;
   margin-left: 143px;
+}
+.container-seccion1-ppal-home, .textos-seccion1 {
+  margin-left: 197px;
 }
 }
 
@@ -1938,6 +1985,9 @@ color: #878179;
   font-weight: 100;
   font-family: "inter";
 }
+.container-seccion1-ppal-home, .textos-seccion1 {
+  margin-left: 165px;
+}
 }
 @media (max-width: 1170px) {
   .padding-esp {
@@ -2002,6 +2052,12 @@ color: #878179;
 .barrita-botones-carta {
   width: 92%;
   gap: 33px;
+}
+.container-seccion1-ppal-home, .textos-seccion1 {
+  margin-left: 110px;
+}
+.container-completo-seccion-vieja {
+  background-position-y: -44px;
 }
 }
 @media (max-width: 1080px) {
@@ -2095,6 +2151,9 @@ margin-bottom: -60px;
 }
 .container-txt-seccion1-reg{
   width: 295px;
+}
+.container-seccion1-ppal-home, .textos-seccion1 {
+  margin-left: 67px;
 }}
 @media (max-width: 1024px) {
   .container-cards-seccion-carta {
@@ -2235,6 +2294,9 @@ margin-bottom: -60px;
 .preguntasfrecuentes-container {
   gap: 34px;
   margin-left: 11px;
+}
+.container-seccion1-ppal-home, .textos-seccion1 {
+  margin-left: 35px;
 }
  }
 @media (max-width: 900px) {
@@ -2894,7 +2956,18 @@ margin-top: 8px;
   margin-left: 114px;
   margin-top: -50px;
   margin-bottom: -18px;
-}}
+}
+
+
+.container-seccion1-ppal-home{
+  margin-left: -3px;
+  padding-top: 105px;
+}
+.textos-seccion1 {
+  margin-left: 45px;
+  margin-top: 5%;
+}
+}
 
 
 
@@ -3077,6 +3150,10 @@ margin-top: 8px;
 }
 .boton-posicion-seccion2 {
   margin-right: 140px;
+}
+.textos-seccion1 {
+  margin-left: 43px;
+  margin-top: 6%;
 }
 }
 
@@ -3299,6 +3376,16 @@ margin-top: 8px;
     font-weight: 100;
     font-family: "inter";
 }
+.textos-seccion1 {
+  margin-left: 43px;
+  margin-top: 3%;
+}
+.form-contacto-reserva {
+  margin-left: -111px;
+}
+.form-contacto-reserva2{
+  margin-left: -111px;
+}
 }
 
 @media (max-width: 800px){
@@ -3401,6 +3488,8 @@ margin-top: 8px;
     margin-top: 18px;}
     .form-contacto-reserva{
       margin-top: 18px;}
+      .form-contacto-reserva2{
+        margin-top: 18px;}
     .h1-carta {
       font-weight: 200;
       margin-left: 40px;
@@ -3519,6 +3608,18 @@ margin-top: 8px;
 }
 .container-seccion1-evento {
   margin-left: -468px;
+}
+.container-completo-seccion-vieja {
+  background-position-y: -19px;
+}
+.container-seccion1-ppal-home {
+  margin-left: -19px;
+  padding-top: 86px;
+}
+.textos-seccion1 {
+  margin-left: 17px;
+  margin-top: 8%;
+  margin-bottom: 13%;
 }}
 
 
@@ -3734,7 +3835,16 @@ height: 450px;
 }
 .container-seccion1-ppal {
   margin-left: 167px;
-}}
+}
+.container-seccion1-ppal-home {
+  margin-left: -6px;
+  padding-top: 86px;
+}
+.container-completo-seccion-vieja {
+  background-position-y: -19px;
+  background-position-x: -182px;
+}
+}
 @media (max-width: 640px){
   .container-seccion1 {
     margin-left: 255px;
@@ -3916,6 +4026,14 @@ height: 450px;
 }
 .container-seccion1-evento-r {
   margin-left: 11px;
+}
+.container-seccion1-ppal-home {
+  margin-left: -82px;
+  padding-top: 86px;
+}
+.chuleton{
+  width:200px;
+  height: 140px;
 }
 }
 @media (max-width: 600px){
@@ -4119,6 +4237,10 @@ height: 450px;
 .container-seccion1-evento-r {
   margin-left: 4px;
 }
+.container-seccion1-ppal-home {
+  margin-left: 31px;
+  padding-top: 86px;
+}
 }
 @media (max-width: 540px){
   .logo-toggle {
@@ -4183,6 +4305,10 @@ height: 450px;
 .form-contacto-reserva{
   margin-left: -31px;
 }
+.form-contacto-reserva2{
+  margin-left: -31px;
+}
+
 .h1-carta {
   font-weight: 200;
   margin-left: 21px;
@@ -4388,6 +4514,30 @@ height: 450px;
 .container-seccion1-evento-r {
   margin-left: 7px;
   margin-top: 40px;
+}
+.container-titulo-icono-seccion1-ppal {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0px;
+  margin-left: -1px;
+  margin-top: 121px;
+}
+.p-seccion1 {
+  width: 353px;
+  margin-top: 136px;
+}
+.container-completo-seccion-vieja {
+  background-position-y: 10px;
+  background-position-x: -356px;
+}
+.textos-seccion1 {
+  margin-top: 1%;
+}
+.form-contacto-reserva {
+  margin-left: -104px;
+}
+.form-contacto-reserva2{
+  margin-left: -104px;
 }
 }
 @media (max-width: 480px){
@@ -4650,6 +4800,20 @@ height: 450px;
   margin-left: 170px;
   margin-top: -155px;
 }
+.container-seccion1-ppal-home {
+  margin-left: 20px;
+  padding-top: 98px;
+}
+.p-seccion1 {
+  width: 336px;
+  margin-top: 125px;
+}
+.form-contacto-reserva {
+  margin-left: -46px;
+}
+.form-contacto-reserva2{
+  margin-left: -46px;
+}
 }
 
 @media (max-width: 430px){
@@ -4693,6 +4857,9 @@ height: 450px;
   width: 346px;
 }
 .form-contacto-reserva {
+  margin-left: -19px;
+}
+.form-contacto-reserva2{
   margin-left: -19px;
 }
 .titulo-generico {
@@ -4915,6 +5082,27 @@ height: 450px;
   margin-left: -13px;
   flex-direction: column;
 }
+.form-contacto-reserva2{
+  margin-left: -13px;
+  flex-direction: column;
+}
+.container-seccion1-ppal-home {
+  margin-left: 43px;
+  padding-top: 98px;
+}
+.form-contacto-reserva {
+  width: 359px;
+  padding-left: 31px;
+  margin-left: -65px;
+}
+.form-contacto-reserva2{
+  width: 359px;
+  padding-left: 31px;
+  margin-left: -65px;
+}
+.todo-contacto-reserva-def {
+  margin-left: 66px;
+}
 }
 @media (max-width: 414px){
 .logo-toggle {
@@ -4987,6 +5175,9 @@ height: 450px;
   .form-contacto-reserva {
     margin-left: 59px;
 }
+.form-contacto-reserva2{
+  margin-left: 59px;
+}
 .text-contacto-reserva-def {
   margin-left: -49px;
 }
@@ -5048,7 +5239,37 @@ height: 450px;
   margin-left: -26px;
 }
 .premplazo{
-  width: 284px;
+  width: 337px;
+}
+.container-seccion1-ppal-home {
+  margin-left: 16px;
+  padding-top: 98px;
+}
+.p-seccion1 {
+  margin-top: 136px;
+}
+.p-seccion1 {
+  width: 336px;
+  margin-top: 157px;
+}
+.textos-seccion1 {
+  margin-left: 16px;
+}
+.todo-contacto-reserva-def {
+  margin-left: 36px;
+}
+.form-contacto-reserva {
+  width: 334px;
+  padding-left: 17px;
+  margin-left: -29px;
+}
+.form-contacto-reserva2{
+  width: 334px;
+  padding-left: 17px;
+  margin-left: -29px;
+}
+.todo-contacto-reserva-def {
+  margin-left: 4px;
 }
 }
 
@@ -5109,7 +5330,10 @@ height: 450px;
   margin-bottom: 13px;
   margin-left: -15px;
 }
-
+.p-seccion1 {
+  width: 336px;
+  margin-top: 161px;
+}
   }
   @media (max-width: 384px){
     .logo-toggle {
@@ -5606,6 +5830,9 @@ height: 450px;
 .seccion-nocarru {
   padding-left: 2px;
 }
+.todo-contacto-reserva-def {
+  margin-left: 27px;
+}
 }
 @media (max-width: 353px){
   .card-nosotros-obras {
@@ -5736,6 +5963,9 @@ height: 450px;
   margin-left: 18px;
 }
 .form-contacto-reserva {
+  margin-left: 85px;
+}
+.form-contacto-reserva2{
   margin-left: 85px;
 }
 .titulo-generico-carta {
@@ -5975,6 +6205,19 @@ height: 450px;
 }
 .form-contacto-reserva {
   margin-left: 109px;
+}
+.form-contacto-reserva {
+  margin-left: -15px;
+}
+.form-contacto-reserva2{
+  margin-left: -15px;
+}
+.text-contacto-reserva-def {
+  margin-left: -44px;
+}
+.premplazo {
+  width: 257px;
+  font-size: 14px;
 }
 }
 @media (max-width: 280px){
@@ -6420,6 +6663,16 @@ height: 450px;
 .todo-contacto-reserva-event-r {
   margin-left: -31px;
 }
+.p-seccion1 {
+  margin-top: 158px;
+  width: 232px;
+}
+.form-contacto-reserva {
+  margin-left: 46px;
+}
+.form-contacto-reserva2{
+  margin-left: 46px;
+}
 }
 @media (max-width: 240px){
   .plato-hero {
@@ -6841,5 +7094,21 @@ height: 450px;
   margin-left: 67px;
   margin-top: 63px;
 }
-
+.p-seccion1 {
+  margin-top: 143px;
+  width: 219px;
+}
+.text-contacto-reserva-def {
+  margin-left: -13px;
+}
+.form-contacto-reserva {
+  margin-left: 79px;
+}
+.form-contacto-reserva2{
+  margin-left: 79px;
+}
+.premplazo {
+  width: 257px;
+  font-size: 10px;
+}
 }

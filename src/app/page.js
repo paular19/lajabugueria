@@ -12,10 +12,10 @@ export default function Home() {
   
   return (
     <main>
-      
+      <div className="container-completo-seccion-vieja">
       <Navbar/>
-      <div className="container-completo-seccion1">
-      <div className="container-seccion1-ppal">
+      
+      <div className="container-seccion1-ppal-home">
         <div className="container-titulo-icono-seccion1-ppal">
         <div className="container-txt-seccion1">
           <h1 className ="titulo-seccion1">Conservamos los<spam className="spam-color"> sabores</spam></h1>
@@ -39,9 +39,10 @@ export default function Home() {
         </div>
       
         </div>
-        <div className="img-hero-ppal">
+        {/* <div className="img-hero-ppal">
         <Image src="/assets/img-hero-home.png" alt="Descripción de la imagen" width={550} height={400} className="plato-hero"/> 
-        </div>
+        </div> */}
+      </div>
       </div>
       <div className="textos-seccion1">
         <h2 className="titulo-generico-ppal">Sobre <spam className="spam-titulogenerico">nosotros</spam></h2>
@@ -62,7 +63,7 @@ export default function Home() {
         </div>
 
       </div>
-      </div>
+     
 
       <div className="container-seccion2">
         <div className="padding-esp">
@@ -93,7 +94,7 @@ export default function Home() {
 
       <div className="container-card-seccion2">
       <div className="plato-precio">
-        <Image src="/assets/chuleton-plato.png" alt="Descripción de la imagen" width={250} height={200} className="chuleton" /> 
+        <Image src="/assets/remplazochuleton.png" alt="Descripción de la imagen" width={220} height={160} className="chuleton" /> 
         <p className="precio-card">175,00€/kg</p>
         </div>
         <div className="texto-card">
