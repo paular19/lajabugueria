@@ -1513,6 +1513,9 @@ color: #878179;
   width: 100%;
   height: 611px;
 }
+.nidea-margin3{
+  margin-left: -7px;
+}
 .vino{
     color: transparent;
     margin-top: -152px;
@@ -1676,6 +1679,15 @@ color: #878179;
 .wpp-msj {
   margin-bottom: -4px;
   margin-right: 5px;
+}
+.nidea-margin{
+  margin-left: -31px;
+}
+.nidea-margin2 {
+  margin-left: -10px;
+}
+.chuleton3{
+  margin-top: 25px;
 }
 /* buttonFixedWpp.jsx: */
 .floating-button {
@@ -2154,6 +2166,9 @@ margin-bottom: -60px;
 }
 .container-seccion1-ppal-home, .textos-seccion1 {
   margin-left: 67px;
+}
+.nidea-margin {
+  margin-left: -26px;
 }}
 @media (max-width: 1024px) {
   .container-cards-seccion-carta {
@@ -4035,6 +4050,15 @@ height: 450px;
   width:200px;
   height: 140px;
 }
+.nidea-margin2 {
+  margin-left: 8px;
+}
+.nidea-margin {
+  margin-left: -27px;
+}
+.nidea-margin2 {
+  margin-left: -7px;
+}
 }
 @media (max-width: 600px){
   .container-seccion1 {
@@ -4241,6 +4265,10 @@ height: 450px;
   margin-left: 31px;
   padding-top: 86px;
 }
+.nidea-margin {
+  margin-left: -29px;
+}
+
 }
 @media (max-width: 540px){
   .logo-toggle {
@@ -4539,6 +4567,9 @@ height: 450px;
 .form-contacto-reserva2{
   margin-left: -104px;
 }
+.nidea-margin2 {
+  margin-left: -8px;
+}
 }
 @media (max-width: 480px){
   .logo-toggle {
@@ -4814,6 +4845,7 @@ height: 450px;
 .form-contacto-reserva2{
   margin-left: -46px;
 }
+
 }
 
 @media (max-width: 430px){
@@ -6673,6 +6705,12 @@ height: 450px;
 .form-contacto-reserva2{
   margin-left: 46px;
 }
+.chuleton1 {
+  margin-left: 3px;
+}
+.nidea-margin {
+  margin-left: -10px;
+}
 }
 @media (max-width: 240px){
   .plato-hero {
@@ -7110,5 +7148,17 @@ height: 450px;
 .premplazo {
   width: 257px;
   font-size: 10px;
+}
+.chuleton1 {
+  margin-left: 8px;
+}
+.nidea-margin {
+  margin-left: 10px;
+}
+.chuleton3 {
+  margin-left: 24px;
+}
+.nidea-margin3 {
+  margin-left: -30px;
 }
 }

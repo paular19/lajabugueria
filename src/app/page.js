@@ -84,7 +84,8 @@ export default function Home() {
 
       <div className="container-card-seccion2">
       <div className="plato-precio">
-        <Image src="/assets/gazpacho-plato.png" alt="Descripción de la imagen" width={250} height={200} className="chuleton"/> 
+        <Image src="/assets/gazpacho-plato.png" alt="Descripción de la imagen" width={221} height={192} className="gazp"/> 
+        <div className="nidea-margin2"></div>
         <p className="precio-card">19,90€</p>
         </div>
         <div className="texto-card">
@@ -94,7 +95,8 @@ export default function Home() {
 
       <div className="container-card-seccion2">
       <div className="plato-precio">
-        <Image src="/assets/remplazochuleton.png" alt="Descripción de la imagen" width={220} height={160} className="chuleton" /> 
+        <Image src="/assets/remplazochuleton.png" alt="Descripción de la imagen" width={220} height={150} className="chuleton3" /> 
+        <div className="nidea-margin3"></div>
         <p className="precio-card">175,00€/kg</p>
         </div>
         <div className="texto-card">
