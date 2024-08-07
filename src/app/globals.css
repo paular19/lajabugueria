@@ -784,9 +784,9 @@ font-weight: 100;
   margin-top: 285px;
   margin-bottom: 160px;
 }
-.h1-carta{
+.h1-carta {
   font-weight: 200;
-  margin-left: 42px;
+  margin-left: 67px;
 }
 
 .boton-barrita, .boton-activo{
@@ -1414,7 +1414,7 @@ color: #878179;
   border-radius: 27px;
 }
 .nosotros-container-ppal {
-  background-image: url(/assets/back-nosotros.png);
+  background-image: url(/assets/nuevanosotros.png);
   height: 835px;
   background-repeat: no-repeat;
 }
@@ -1818,6 +1818,9 @@ color: #878179;
 .textos-seccion1 {
   margin-left: 330px;
 }
+.nosotros-container-ppal {
+  background-position-x: -187px;
+}
 }
 @media (max-width: 1440px) {
   .container-cards-seccion-carta {
@@ -1896,6 +1899,9 @@ color: #878179;
 }
 .container-seccion1-ppal-home, .textos-seccion1{
   margin-left: 235px;
+}
+.nosotros-container-ppal {
+  background-position-x: -296px;
 }}
 
 @media (max-width: 1366px) {
@@ -2000,6 +2006,9 @@ color: #878179;
 .container-seccion1-ppal-home, .textos-seccion1 {
   margin-left: 165px;
 }
+.nosotros-container-ppal {
+  background-position-x: -354px;
+}
 }
 @media (max-width: 1170px) {
   .padding-esp {
@@ -2070,6 +2079,9 @@ color: #878179;
 }
 .container-completo-seccion-vieja {
   background-position-y: -44px;
+}
+.nosotros-container-ppal {
+  background-position-x: -411px;
 }
 }
 @media (max-width: 1080px) {
@@ -2169,6 +2181,9 @@ margin-bottom: -60px;
 }
 .nidea-margin {
   margin-left: -26px;
+}
+.nosotros-container-ppal {
+  background-position-x: -449px;
 }}
 @media (max-width: 1024px) {
   .container-cards-seccion-carta {
@@ -2218,6 +2233,9 @@ margin-bottom: -60px;
 .seccion-nocarru {
   gap: 13px;
   padding-left: 20px;
+}
+.nosotros-container-ppal {
+  background-position-x: -481px;
 }
 }
 @media (max-width: 950px) {
@@ -2312,6 +2330,9 @@ margin-bottom: -60px;
 }
 .container-seccion1-ppal-home, .textos-seccion1 {
   margin-left: 35px;
+}
+.nosotros-container-ppal {
+  background-position-x: -525px;
 }
  }
 @media (max-width: 900px) {
@@ -2677,9 +2698,6 @@ margin-top: 6%;}
   margin-bottom: 13px;
 }
 .nosotros-container-ppal {
-  background-image: url(/assets/back-nosotros.png);
-  height: 674px;
-  background-repeat: no-repeat;
   background-position-x: -627px;
 }
 .container-seccion2-nosotros {
@@ -3635,6 +3653,9 @@ margin-top: 8px;
   margin-left: 17px;
   margin-top: 8%;
   margin-bottom: 13%;
+}
+.nosotros-container-ppal {
+  background-position-x: -655px;
 }}
 
 
@@ -4059,6 +4080,9 @@ height: 450px;
 .nidea-margin2 {
   margin-left: -7px;
 }
+.nosotros-container-ppal {
+  background-position-x: -733px;
+}
 }
 @media (max-width: 600px){
   .container-seccion1 {
@@ -4268,7 +4292,9 @@ height: 450px;
 .nidea-margin {
   margin-left: -29px;
 }
-
+.nosotros-container-ppal {
+  background-position-x: -755px;
+}
 }
 @media (max-width: 540px){
   .logo-toggle {
@@ -4570,6 +4596,11 @@ height: 450px;
 .nidea-margin2 {
   margin-left: -8px;
 }
+.nosotros-container-ppal {
+  background-position-x: -803px;
+}
+.nosotros-container-ppal {
+  background-position-x: -849px;}
 }
 @media (max-width: 480px){
   .logo-toggle {
@@ -5135,6 +5166,9 @@ height: 450px;
 .todo-contacto-reserva-def {
   margin-left: 66px;
 }
+.nosotros-container-ppal {
+  background-position-x: -979px;
+}
 }
 @media (max-width: 414px){
 .logo-toggle {
@@ -5303,6 +5337,9 @@ height: 450px;
 .todo-contacto-reserva-def {
   margin-left: 4px;
 }
+.nosotros-container-ppal {
+  background-position-x: -979px;
+}
 }
 
   @media (max-width: 412px){
@@ -5365,6 +5402,9 @@ height: 450px;
 .p-seccion1 {
   width: 336px;
   margin-top: 161px;
+}
+.nosotros-container-ppal {
+  background-position-x: -979px;
 }
   }
   @media (max-width: 384px){
@@ -5569,6 +5609,9 @@ height: 450px;
 .container-seccion1-evento-r {
   margin-left: -53px;
   margin-top: 40px;
+}
+.nosotros-container-ppal {
+  background-position-x: -1040px;
 }}
 @media (max-width: 375px){
 .container-titulo-icono-seccion1 {
@@ -6711,6 +6754,9 @@ height: 450px;
 .nidea-margin {
   margin-left: -10px;
 }
+.nosotros-container-ppal {
+  background-position-x: -1102px;
+}
 }
 @media (max-width: 240px){
   .plato-hero {
@@ -7160,5 +7206,8 @@ height: 450px;
 }
 .nidea-margin3 {
   margin-left: -30px;
+}
+.nosotros-container-ppal {
+  background-position-x: -1109px;
 }
 }
