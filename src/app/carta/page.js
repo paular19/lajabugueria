@@ -26,79 +26,81 @@ export default function Carta() {
   };
 
   const entrantesFrios = [
-    { title: 'Asadillo de verduras asadas con pétalos de bacalao y pistacho sobre queso de cabra flambeado', description: 'En temporada.', price: '21.50€' },
-    { title: 'Tarta de atún rojo con aguacate y mostaza Dijon', price: '16,95€' },
-    { title: 'Ensalada de cecina extra wagyu Suprema', description: 'Sobre mango braseado.', price: '22.30€' },
-    { title: 'Tabla surtida de ibéricos', description: 'De bellota D.O.', price: '17,40€' },
-    { title: 'Anchoas del Cantábrico (6 uds.)', description: 'Sobre fondo tibio de tomate Raf acompañadas de la mojama', price: '18,50€' },
-    { title: 'Tosta del mar con sardina ahumada con escamas de queso de merina y carpaccio de Raf', description: 'Sobre tosta caliente', price: '6,95€' },
+    { title: 'JAMÓN IBÉRICO DE BELLOTA (EL GRAMO)', description: 'Cortado a cuchillo, de nuestra propia reserva, entre las mejores denominaciones. Los Pedroches, Guijuelo y Jabugo', price: '0,26 €/gr' },
+    { title: 'ESPÁRRAGOS NAVARROS DE LA JABUGUERÍA', description: 'Rellenos de nuestra magistral salsa de Bellota "Cojonudos". Plato 2004', price: '6,95 €' },
+    { title: 'CECINA DE WAGYU EXTRA', price: '0,28 €/gr.' },
+    { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '10 gr', price: '29,00 €' },
+    { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '30 gr', price: '84,90 €' },
+    { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '50 gr', price: '139,90 €' },
+    { title: 'ENSALADA DE PERDIZ EN ESPEJO DE OLIVA VIRGEN', description: 'al estilo de la Alhambra', price: '19,90 €' },
+    { title: 'SURTIDO DE QUESOS DE ESPAÑA Y JOYAS INTERNACIONALES', price: '0,08-0,09 €/gr' },
+    { title: 'PRESA “LOMITO” 100% IBÉRICO DE BELLOTA', price: '0,16 €/gr' },
+    { title: 'ASADILLO DE VERDURAS SOBRE QUESO DE CABRA FLAMBLEADO', description: 'Y sardina ahumada con madera de haya (en temporada)', price: '21,50 €' },
+    { title: 'ENSALADA DE CECINA DE WAGYU EXTRA', description: 'Sobre mango braseado', price: '22,30 €' },
+    { title: 'ANCHOAS DEL CANTÁBRICO (8 ud.)', description: '(Costera de primavera, doble lomo maduradas 2 años. Rafa López)', price: '32,95 €' },
+    { title: 'TOSTA DEL MAR CON SARDINA AHUMADA', description: 'Sobre escamas de queso de oveja merina y carpaccio de raff', price: '6,95 €' },
+    { title: 'SALCHICHÓN DE SOLOMILLO DE BELLOTA CON TRUFA NEGRA ', price: '0,12 €/gr' },
   ];
   
 
   const entrantesCalientes = [
-    { title: 'Anguilas del Delta del Ebro', description: 'Con huevo de corral (Uno por comensal).', price: '87,00€' },
-    { title: 'Mollejas de ternera de León con ajetes', price: '22,90€' },
-    { title: 'Perlas de bacalao en base de queso de cabra y pimiento de piquillo confitado', price: '22,50€' },
-    { title: 'Steak Tuetano', price: '33,90€' },
-    { title: 'Pulpo Gallego braseado', price: '26,50€' },
-    { title: 'Calamar de playa con habitas baby', description: 'En su propia tinta', price: '23,90€' },
-    { title: 'Huevos Rotos a LA JABUGUERÍA con Jamón de Bellota', description: 'Rellenos de perdiz escabechada', price: '15,90€' },
-    { title: 'Pimientos de piquillo', description: 'Rellenos de perdiz escabechada', price: '17,90€' },
-    { title: 'Croquetas de liebre y perdiz, jamón de bellota y queso de oveja Merina', description: 'Al estilo de Rafa el Guarda (unidad)', price: '3,05€' },
-    { title: 'Extra parrillada de vedura para chuleton', description: 'Por persona', price: '2,75€' }
+    { title: 'ANGULAS DEL DELTA DEL EBRO', description: 'Acompañada de un huevo de corral de araucana, por comensal.', price: '87,00€' },
+    { title: 'MOLLEJAS DE TERNERA DE LEÓN CON AJETES', price: '22,90€' },
+    { title: 'PERLAS DE BACALAO EN BASE DE QUESO DE CABRA ', price: '22,90€' },
+    { title: 'STEAK TUÉTANO', description: 'Tuétano de Buey horneado, acompañado de nuestro Solomillo de vaca gallega cortado en crudo y aderezado con mostaza Dijón, alcaparras, pistacho y huevo de corral.', price: '33,90 €' },
+    { title: 'PULPO GALLEGO BRASEADO', description: 'Acompañada de papada ibérica de bellota curada.',price: '26,50€' },
+    { title: 'TOSTA DE FOIE DE OCA SOBRE MANGO, MANZANA Y MIEL (UNIDAD)', price: '9,90 €' },
+    { title: 'SETAS SHYTAKE ACOMPAÑADAS DE UN PAR DE HUEVOS DE CORRAL', description: 'Las yemas se presentan curadas en soja', price: '24,90 €' },
+    { title: 'HUEVOS ROTOS A LA JABUGUERÍA CON JAMÓN DE BELLOTA', price: '15,90 €' },
+    { title: 'CROQUETAS CASERAS DE VERDAD', description: 'De jamón 100% ibérico de bellota o queso de oveja merina', price: '3,05 €' }
   ];
 
   const carnes = [
-    { title: 'Chuletón de Vaca Gallega seleccionado', description: 'Maduración variable según pieza', price: '89,50€' },
-    { title: 'Chuletón de Buey certificado alta maduración', description: '(min 3 personas)', price: '175,00€/kg' },
-    { title: 'Solomillo de jabalí al foie de oca con confitura de tomate', price: '24,30€' },
-    { title: 'Wagyu Japonés certificado', price: '€/según mercado' },
-    { title: 'Solomillo de gamo asado al carbón a la reducción de los dos vinos acompañado de la guarnición del mercado', price: '24,00€' },
-    { title: 'Lechazo asado al horno con leña de encina', price: '28,95€' },
-    { title: 'El secreto: Chuletón de ibérico de bellota a la brasa', description: 'Regado con Brandy y acompañado de patatas chips', price: '23,10€' },
-    { title: 'Carrillada de ternera leonesa con setas', description: 'Se sirve al gusto también con un crep', price: '21,50€' },
-    { title: 'Solomillo de vaca vella de FINCA HISPANIA o carne de lujo Vacum', price: '24,90€' },
-    { title: 'Chuletillas de cabrito lechal con ajetes tiernos y guarnición del mercado', price: '19,95€' },
-    { title: 'Perdiz roja de monte escabechada al estilo de cortijo', price: '22,95€'},
-    { title: 'Venado o jabalí en salsa campera con aromas y recuerdos del monte', price: '19,95€' },
-    { title: 'Huevos del corral al estilo de "La Cerrada de Utrero"', price: '17,85€'}
+    { title: 'CHULETÓN DE VACA GALLEGA SELECCIONADO', description: 'Maduración variable según pieza', price: '89,50€' },
+    { title: 'CHULETÓN DE BUEY CERTIFICADO NACIONAL ALTA MADURACIÓN', price: '158,00€/kg' },
+    { title: 'WAGYU NACIONAL', price: '380,00 €/kg' },
+    { title: 'WAGYU JAPONÉS CERTIFICADO - LINGOTE 100 gr', price: '75,90 €' },
+    { title: 'SOLOMILLO DE GAMO',  description: 'Asado al carbón a la reducción de los dos vinos acompañado de la guarnición del mercado',price: '24,00 €' },
+    { title: 'LECHAZO ASADO AL HORNO CON LEÑA DE ENCINA', description: 'Pierna, paletilla o costillar (según mercado)', price: '18,95 € /54,90 €' },
+    { title: 'SECRETO IBÉRICO DE BELLOTA A LA BRASA “CARNE ECOLÓGICA”', description: 'Regado con Brandy y acompañado de patatas chips', price: '23,10€' },
+    { title: 'CARRILLADA DE TERNERA LEONESA CON SETAS', price: '21,50€' },
+    { title: 'SOLOMILLO DE VACA “VELLA GALLEGA”', price: '24,90€' },
   ];
 
   const guisos = [
-    { title: 'Arroz bomba con conejo de monte, boletus y caracoles', description: 'Presentado meloso al barro', price: '19,95€' },
-    { title: 'Arroz bomba meloso marinero', price: '19,95€' },
-    { title: 'Fabes Asturianas', description: 'Las auténticas, acompañadas de chacina Ibérica.', price: '17,95€' },
-    { title: 'Sartén de ajo de matanza con habitas y un par de huevos de gallina de corral', description: 'Plato con mención especial según el crítico gastronómico del diario El Mundo', price: '19,95€' },
-    { title: 'Gazpacho manchego con estilo propio sobre torta rodeña', price: '19,90€' },
-    { title: 'Gazpacho al estilo marinero', price: '19,90€' },
-    { title: 'Manitas de cerdo', description: 'Deshuesadas y guisadas al PX y almendras marcona', price: '19,80€' },
-    { title: 'Rabo de toro de FINCA HISPANIA o Vacum "carne de lujo"', description: 'Deshuesado y guisado al estilo de La Jabuguería', price: '21,50€' },
-    { title: 'Judiones de la granja con perdiz matada a plomo o con chacina ibérica', price: '17,90€' },
-    { title: 'Migas de pastor', price: '15,95€' },
-    { title: 'La Cerrada Del Utrero', price: '17,85€'}
+    { title: 'ARROZ BOMBA CON CONEJO DE MONTE, BOLETUS Y CARACOLES', description: 'Presentado meloso al barro', price: '19,95€' },
+    { title: 'ARROZ BOMBA MELOSO MARINERO', price: '19,95€' },
+    { title: 'FABES ASTURIANAS', description: 'Las auténticas acopañadas de chocina ibérica', price: '17,95€' },
+    { title: 'SARTÉN DE AJO DE MATANZA CON HABITAS CHICAS Y UN PAR DE HUEVOS DE GALLINA DE CORRAL', description: 'Plato con mención especial según el crítico gastronómico del diario El Mundo', price: '19,50€' },
+    { title: 'GAZPACHO MANCHEGO CON ESTILO PROPIO SOBRE TORTA RODEÑA', price: '19,90€' },
+    { title: 'VENADO O JABALÍ EN SALSA CAMPERA CON AROMAS Y RECUERDOS DEL MONTE', price: '19,95€' },
+    { title: 'MIGAS DE PASTOR',  description: 'con huevos de corral',price: '15,95€' },
+    { title: 'SARTÉN DE LA CERRADA DEL UTRERO', price: '17,85€'}
   ];
 
   const postres = [
-    { title: 'Volcán de caviar', description: 'Sobre almendras y helado de coco', price: '€/según mercado' },
-    { title: 'Crep helado de turrón regado con chocolate Valor caliente',description: 'Sobre lecho de salsa pil-pil', price: '7,90€' },
-    { title: 'Carpaccio de piña con Cointreau y mermelada de naranja amarga', price: '7,50€' },
-    { title: 'Sorbete de Maracuyá con trocitos de Mango', price: '6,95€' },
-    { title: 'Sorbete de clementina regado con vodka Absolut', price: '6,95€' },
-    { title: 'Torrija caramelizada al horno', price: '7,90€' },
-    { title: 'Trufas Gourmet', price: '6,50€' },
-    { title: 'Alta Repostería Francesa', price: '8,95€' },
+    { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '10 gr', price: '29,00 €' },
+    { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '30 gr', price: '84,90 €' },
+    { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '50 gr', price: '139,90 €' },
+    { title: 'CREP DE HELADO DE TURRÓN REGADO CON CHOCOLATE VALOR CALIENTE', price: '7,90€' },
+    { title: 'PASTEL TEMPLADO DE QUESO DE OVEJA', price: '7,30€' },
+    { title: 'CARPACCIO DE PIÑA CON COINTREAU Y MERMELADA DE NARANJA AMARGA', price: '7,50€' },
+    { title: 'SORBETE DE LIMOMCELLO', price: '6,95€' },
+    { title: 'SORBETE DE CLEMENTINA REGADO CON VODKA PREMIUM', price: '6,95€' },
+    { title: 'TORRIJA CARAMELIZADA AL HORNO', price: '7,90€' },
   ];
 
   const pescado = [
-    { title: 'Anguilas del Delta del Ebro (100 gr)', description: 'Acompañadas de un huevo de nuestras gallinas de corral', price: '85,00€' },
-    { title: 'Lomos de bacalao al estilo de nuestros fogones', description: 'Sobre lecho de salsa pil-pil', price: '24,90€' },
-    { title: 'Caviar de Beluga Iraní "000"', price: '€/segun mercado' },
-    { title: 'Merluza de Cantábrico al horno con costra de mahonesa. Picual', price: '24,90€' },
-    { title: 'Ventresca de Atún Rojo certificado', price: '€/segun mercado' },
-    { title: 'Rodaballo salvaje', price: '€/segun mercado' },
-    { title: 'Cigala "000"', price: '€/segun mercado' },
-    { title: 'Perlas de bacalao en base de queso de cabra', description: 'Y pimiento de piquillo confitado', price: '21,50€' },
-    { title: 'Boquerones del Mediterráneo fritos', description: 'Rellenos de jamón ibérico de bellota D.O. Guijuelo', price: '18,95€' }
+    { title: 'ANGULAS DEL DELTA DEL EBRO', description: 'Acompañada de un huevo de corral de araucana, por comensal.', price: '87,00€' },
+    { title: 'LOMOS DE BACALAO AL ESTILO DE NUESTROS FOGONES', description: 'Sobre lecho de salsa pil-pil', price: '24,90€' },
+    { title: 'CAVIAR BELUGA (10g.)', description: 'posibilidad de acompañar con un huevo de arancana de corral.',  price: '29,00 €' },
+    { title: 'CAVIAR BELUGA (30g.)', description: 'posibilidad de acompañar con un huevo de arancana de corral.',  price: '84,90 €' },
+    { title: 'CAVIAR BELUGA (50g.)', description: 'posibilidad de acompañar con un huevo de arancana de corral.',  price: '139,90 €' },
+    { title: 'MERLUZA DEL CANTÁBRICO', description: 'Al horno con costra de mahonesa. Picual', price: '24,90€' },
+    { title: 'MORRILLO DE ATÚN ROJO SALVAJE',  description: '(según existencias)',price: '142,00 €' },
+    { title: 'RODABALLO SALVAJE', description: '(según existencias)',price: '102,00 €' },
+    { title: 'PERLAS DE BACALAO EN BASE DE QUESO DE CABRA ', price: '22,90€' },
+    { title: 'BOQUERONES DEL MEDITERRÁNEO FRITOS', description: 'rellenos de jamón ibérico de bellota D.O. Guijuelo (según existencias)', price: '18,95€' }
   ];
 
   const renderCards = (items) => {
