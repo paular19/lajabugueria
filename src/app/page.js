@@ -6,6 +6,7 @@ import ContactForm from "../../clientsComponents/contact-form";
 import Navbar from "../../clientsComponents/navbar";
 import ButtonFixedWpp from "../../clientsComponents/wpp";
 import Footer from "../../clientsComponents/footer";
+import CookiesConsent from '../../clientsComponents/cookiesConsent';
 
 
 export default function Home() {
@@ -156,6 +157,7 @@ export default function Home() {
       
       <Footer/>
       <ButtonFixedWpp/>
+      <CookiesConsent/>
 
     </main>
   );
