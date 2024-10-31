@@ -1,41 +1,54 @@
-// components/CookiesConsent.js
-import { useState, useEffect } from 'react';
+// src/components/CookieBanner.js
+"use client";
 
-const CookiesConsent = () => {
-  const [isVisible, setIsVisible] = useState(false);
+import { useState, useEffect } from "react";
+
+const CookieBanner = () => {
+  const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
-    const cookiesAccepted = localStorage.getItem('cookiesAccepted');
-    if (!cookiesAccepted) {
-      setIsVisible(true);
+    const consent = localStorage.getItem("cookieConsent");
+    if (!consent) {
+      setShowBanner(true);
     }
   }, []);
 
   const handleAccept = () => {
-    localStorage.setItem('cookiesAccepted', 'true');
-    setIsVisible(false);
+    localStorage.setItem("cookieConsent", "true");
+    setShowBanner(false);
   };
 
-  if (!isVisible) return null;
+  const handleDecline = () => {
+    localStorage.setItem("cookieConsent", "false");
+    setShowBanner(false);
+  };
+
+  if (!showBanner) return null;
 
   return (
-    <div style={styles.banner}>
-      <p>Este sitio utiliza cookies para mejorar la experiencia. ¿Aceptas las cookies?</p>
-      <button onClick={handleAccept} className="miBoton">Aceptar</button>
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 container-cookies">
+      <div className="bg-white rounded-lg p-6 max-w-lg w-full text-center shadow-lg">
+        <h2 className="text-lg font-semibold mb-4">Este sitio utiliza cookies</h2>
+        <p className="mb-6 text-gray-700">
+          Usamos cookies para mejorar la experiencia del usuario. ¿Aceptas su uso?
+        </p>
+        <div className="flex justify-center gap-4 container-bot-coo">
+          <button
+            onClick={handleAccept}
+            className="miBoton"
+          >
+            Aceptar
+          </button>
+          <button
+            onClick={handleDecline}
+            className="miBoton"
+          >
+            Rechazar
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
 
-const styles = {
-  banner: {
-    position: 'fixed',
-    width: '100%',
-    backgroundColor: '#121212',
-    color: '#F9F9F9',
-    textAlign: 'center',
-    padding: '10px',
-    fontFamily: "the-seasons",
-  },
-};
-
-export default CookiesConsent;
+export default CookieBanner;

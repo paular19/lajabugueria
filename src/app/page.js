@@ -6,13 +6,16 @@ import ContactForm from "../../clientsComponents/contact-form";
 import Navbar from "../../clientsComponents/navbar";
 import ButtonFixedWpp from "../../clientsComponents/wpp";
 import Footer from "../../clientsComponents/footer";
-import CookiesConsent from '../../clientsComponents/cookiesConsent';
+import CookieBanner from "../../clientsComponents/cookiesConsent";
+
+
 
 
 export default function Home() {
-  
+
   return (
     <main>
+      <CookieBanner />
       <div className="container-completo-seccion-vieja">
       <Navbar/>
       
@@ -154,11 +157,11 @@ export default function Home() {
       </div>
       <ContactForm/> 
       </div> */}
-      
+
       <Footer/>
       <ButtonFixedWpp/>
-      <CookiesConsent/>
-
+     
+      
     </main>
   );
 }
