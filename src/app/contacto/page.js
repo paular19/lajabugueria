@@ -40,7 +40,7 @@ export default function Contacto() {
           <hr className="linea-vector-contacto"></hr>
           <div className="contenedor-icon-txt-2">
           <Image src="/assets/horario-jabu.png" alt="Descripción de la imagen" width={20} height={20} /> 
-          <h3 className="txt-icon-2">Lunes a sábado 8:30 - 17:30 h</h3>
+          <h3 className="txt-icon-2">Lunes a sábado 8:45 - 17:30 h</h3>
           </div>
         </div>
         </div>

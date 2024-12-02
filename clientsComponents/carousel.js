@@ -50,7 +50,7 @@ const Carousel = () => {
       Lo invitamos a conocer nuestros productos</p>
       <div className="boton-posicion-carrusel">
       <a href="/carta">
-      <button className="miBoton">TODOS LOS PLATILLOS</button>
+      <button className="miBoton">NUESTROS PLATOS</button>
       </a>
       </div>
       </div>

@@ -30,43 +30,43 @@ export default function Embutidos() {
         <div className='container-card-embutidos'>
         <Image src="/assets/embutido-img1.png" alt="Descripción de la imagen" width={480} height={220}className="img-emb-card"/> 
         <h1 className='titulo-card-embutido'>Selección negra</h1>
-        <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
-        <h1 className='precio-card-embutido'>75.05€/kg</h1>
+        <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota, denominación de origen valle de los Pedroches</p>
+        <h1 className='precio-card-embutido'>Desde 464,89€</h1>
         </div>
 
         <div className='container-card-embutidos'>
         <Image src="/assets/embutido-img2.png" alt="Descripción de la imagen" width={480} height={220} className="img-emb-card"/> 
-        <h1 className='titulo-card-embutido'>Selección negra</h1>
-        <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
-        <h1 className='precio-card-embutido'>75.05€/kg</h1>
+        <h1 className='titulo-card-embutido'>Selección roja</h1>
+        <p  className='p-card-embutido'>Jamón 75% ibérico o 50% ibérico con una alimentación con bellotas de las dehesas.</p>
+        <h1 className='precio-card-embutido'>Desde 340,20€</h1>
         </div>
 
         <div className='container-card-embutidos'>
         <Image src="/assets/embutido-img3.png" alt="Descripción de la imagen" width={480} height={220} className="img-emb-card"/> 
-        <h1 className='titulo-card-embutido'>Selección negra</h1>
-        <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
-        <h1 className='precio-card-embutido'>75.05€/kg</h1>
+        <h1 className='titulo-card-embutido'>Selección verde</h1>
+        <p  className='p-card-embutido'>Jamón 100%, 75% o 50% ibérico, alimentados con pienso de cereales, hierba y algo de bellota, viviendo en el campo.</p>
+        <h1 className='precio-card-embutido'>Desde 209,79€</h1>
         </div>
 
         <div className='container-card-embutidos'>
         <Image src="/assets/embutido-img4.png" alt="Descripción de la imagen" width={480} height={220} className="img-emb-card"/> 
-        <h1 className='titulo-card-embutido'>Selección negra</h1>
-        <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
-        <h1 className='precio-card-embutido'>75.05€/kg</h1>
+        <h1 className='titulo-card-embutido'>Selección al vacío</h1>
+        <p  className='p-card-embutido'>Nuestros jamones de todas las selecciones cortado a cuchillo y envasado al vacío.</p>
+        <h1 className='precio-card-embutido'>90.00€/kg</h1>
         </div>
 
         <div className='container-card-embutidos'>
         <Image src="/assets/embutido-img5.png" alt="Descripción de la imagen" width={480} height={220} className="img-emb-card"/> 
-        <h1 className='titulo-card-embutido'>Selección negra</h1>
-        <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
-        <h1 className='precio-card-embutido'>75.05€/kg</h1>
+        <h1 className='titulo-card-embutido'>Aceite de Oliva virgen extra</h1>
+        <p  className='p-card-embutido'></p>
+        <h1 className='precio-card-embutido'></h1>
         </div>
 
         <div className='container-card-embutidos'>
         <Image src="/assets/embutido-img6.png" alt="Descripción de la imagen" width={480} height={220} className="img-emb-card"/> 
-        <h1 className='titulo-card-embutido'>Selección negra</h1>
-        <p  className='p-card-embutido'>Jamón 100 % ibérico de bellota , denominación de origen valle de los Pedroches</p>
-        <h1 className='precio-card-embutido'>75.05€/kg</h1>
+        <h1 className='titulo-card-embutido'>Embutidos</h1>
+        <p  className='p-card-embutido'>Salchichón de solomillo con trufa.</p>
+        <p  className='p-card-embutido'>Presa ibérica de bellota.</p>
         </div>
       </div>
 

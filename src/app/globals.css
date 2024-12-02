@@ -1710,6 +1710,10 @@ color: #878179;
   height: 40px;
 }
 
+.telefonos{
+  display: flex;
+  flex-direction: column;
+}
 .container-cookies{
   display: flex;
   flex-direction: column;

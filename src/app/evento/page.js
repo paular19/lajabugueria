@@ -32,9 +32,9 @@ export default function Evento() {
       <h2 className="titulo-contacto-txt">Organice su <spam className="spam-titulocontacto"> evento</spam></h2>
       <p className="parrafo-contacto-txt-eve">Queremos formar parte de los mejores momentos de su vida.</p>
       <div className="vectores-blancos">
-      <p className="parrafo-contacto-txt2"><Image src="/assets/hora-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>Lunes a sábado de 8:30 a 17:30 hs</p>
+      <p className="parrafo-contacto-txt2"><Image src="/assets/hora-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>Lunes a sábado de 8:45 a 17:30 hs</p>
       <hr className="linea-vector-ev"></hr>
-      <p className="parrafo-contacto-txt2"><Image src="/assets/telefono-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>+34 611841205</p>
+      <p className="parrafo-contacto-txt2"><Image src="/assets/telefono-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>+34 611841205 - 96 155 73 01</p>
       <hr className="linea-vector-ev"></hr>
       <p className="parrafo-contacto-txt2"><Image src="/assets/ubi-blanco.png" alt="Descripción de la imagen" width={10} height={10} className="vector-blanco"/>Camí Real, 179 B 46900 TORRENT Valencia</p>
       </div>

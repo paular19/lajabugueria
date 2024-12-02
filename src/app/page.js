@@ -23,12 +23,14 @@ export default function Home() {
         <div className="container-titulo-icono-seccion1-ppal">
         <div className="container-txt-seccion1">
           <h1 className ="titulo-seccion1">Conservamos los<spam className="spam-color"> sabores</spam></h1>
-          <p className="p-seccion1">Descubra una experiencia culinaria única y maravíllese con los sabores que La Jabuguería tiene para usted</p>
         </div>
         <div className="icons-seccion1">
           <div className="contenedor-icon-txt">
           <Image src="/assets/telefono-jabu.png" alt="Descripción de la imagen" width={23} height={20} /> 
+          <div className="telefonos">
           <h3 className="txt-icon1">96 155 73 01</h3>
+          <h3 className="txt-icon1">+34 611 84 12 05</h3>
+          </div>
           </div>
 
           <div className="contenedor-icon-txt">
@@ -38,7 +40,7 @@ export default function Home() {
 
           <div className="contenedor-icon-txt">
           <Image src="/assets/horario-jabu.png" alt="Descripción de la imagen" width={20} height={20} /> 
-          <h3 className="txt-icon">Lunes a sábado 8:30 - 17:30 h</h3>
+          <h3 className="txt-icon">Lunes a sábado 8:45 - 17:30 h</h3>
           </div>
         </div>
       
@@ -78,7 +80,7 @@ export default function Home() {
         <div className="plato-precio">
         <Image src="/assets/jamon-plato.png" alt="Descripción de la imagen" width={240} height={170} className="chuleton1"/> 
         <div className="nidea-margin">
-        <p className="precio-card">0.26€/g.€</p>
+        <p className="precio-card">0.27€/g.€</p>
         </div>
         </div>
         <div className="texto-card">
@@ -90,7 +92,7 @@ export default function Home() {
       <div className="plato-precio">
         <Image src="/assets/gazpacho-plato.png" alt="Descripción de la imagen" width={221} height={192} className="gazp"/> 
         <div className="nidea-margin2"></div>
-        <p className="precio-card">19,90€</p>
+        <p className="precio-card">21,90€</p>
         </div>
         <div className="texto-card">
           <h3 className="titulo-card">Gazpacho manchego con pichón, liebre y perdiz.</h3>
@@ -101,7 +103,7 @@ export default function Home() {
       <div className="plato-precio">
         <Image src="/assets/remplazochuleton.png" alt="Descripción de la imagen" width={220} height={150} className="chuleton3" /> 
         <div className="nidea-margin3"></div>
-        <p className="precio-card">175,00€/kg</p>
+        <p className="precio-card">179,00€/kg</p>
         </div>
         <div className="texto-card">
           <h3 className="titulo-card">Chuletón de buey, certificado alta maduración.</h3>
@@ -110,7 +112,7 @@ export default function Home() {
       </div> 
       <div className="boton-posicion-seccion2">
       <a href="/carta">
-      <button className="miBoton">TODOS LOS PLATILLOS</button>
+      <button className="miBoton">NUESTROS PLATOS</button>
       </a>
       </div>
       </div>

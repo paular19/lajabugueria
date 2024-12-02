@@ -26,20 +26,19 @@ export default function Carta() {
   };
 
   const entrantesFrios = [
-    { title: 'JAMÓN IBÉRICO DE BELLOTA (EL GRAMO)', description: 'Cortado a cuchillo, de nuestra propia reserva, entre las mejores denominaciones. Los Pedroches, Guijuelo y Jabugo', price: '0,26 €/gr' },
-    { title: 'ESPÁRRAGOS NAVARROS DE LA JABUGUERÍA', description: 'Rellenos de nuestra magistral salsa de Bellota "Cojonudos". Plato 2004', price: '6,95 €' },
+    { title: 'JAMÓN IBÉRICO DE BELLOTA (EL GRAMO)', description: 'Cortado a cuchillo, de nuestra propia reserva, entre las mejores denominaciones. Los Pedroches, Guijuelo y Jabugo', price: '0,27 €/gr' },
+    { title: 'ESPÁRRAGOS NAVARROS DE LA JABUGUERÍA', description: 'Rellenos de nuestra magistral salsa de Bellota "Cojonudos". Plato 2004', price: '7,95 €' },
     { title: 'CECINA DE WAGYU EXTRA', price: '0,28 €/gr.' },
-    { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '10 gr', price: '29,00 €' },
     { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '30 gr', price: '84,90 €' },
-    { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '50 gr', price: '139,90 €' },
     { title: 'ENSALADA DE PERDIZ EN ESPEJO DE OLIVA VIRGEN', description: 'al estilo de la Alhambra', price: '19,90 €' },
     { title: 'SURTIDO DE QUESOS DE ESPAÑA Y JOYAS INTERNACIONALES', price: '0,08-0,09 €/gr' },
-    { title: 'PRESA “LOMITO” 100% IBÉRICO DE BELLOTA', price: '0,16 €/gr' },
-    { title: 'ASADILLO DE VERDURAS SOBRE QUESO DE CABRA FLAMBLEADO', description: 'Y sardina ahumada con madera de haya (en temporada)', price: '21,50 €' },
-    { title: 'ENSALADA DE CECINA DE WAGYU EXTRA', description: 'Sobre mango braseado', price: '22,30 €' },
+    { title: 'PRESA “LOMITO” 100% IBÉRICO DE BELLOTA', price: '0,18 €/gr' },
+    { title: 'ASADILLO DE VERDURAS SOBRE QUESO DE CABRA FLAMEADO', description: 'Y sardina ahumada con madera de haya (en temporada)', price: '21,50 €' },
+    { title: 'ENSALADA DE CECINA DE WAGYU EXTRA', description: 'Sobre mango braseado', price: '23,90 €' },
     { title: 'ANCHOAS DEL CANTÁBRICO (8 ud.)', description: '(Costera de primavera, doble lomo maduradas 2 años. Rafa López)', price: '32,95 €' },
     { title: 'TOSTA DEL MAR CON SARDINA AHUMADA', description: 'Sobre escamas de queso de oveja merina y carpaccio de raff', price: '6,95 €' },
-    { title: 'SALCHICHÓN DE SOLOMILLO DE BELLOTA CON TRUFA NEGRA ', price: '0,12 €/gr' },
+    { title: 'SALCHICHÓN DE SOLOMILLO DE BELLOTA CON TRUFA NEGRA ', price: '0,15 €/gr' },
+    { title: 'CARPACCIO DE PICAÑA DE AUTENTICO BUEY', description: 'Acompañado de mermelada rosa, alcachofas confitadas y queso de oveja merina', price: '27,50 €' },
   ];
   
 
@@ -52,16 +51,17 @@ export default function Carta() {
     { title: 'TOSTA DE FOIE DE OCA SOBRE MANGO, MANZANA Y MIEL (UNIDAD)', price: '9,90 €' },
     { title: 'SETAS SHYTAKE ACOMPAÑADAS DE UN PAR DE HUEVOS DE CORRAL', description: 'Las yemas se presentan curadas en soja', price: '24,90 €' },
     { title: 'HUEVOS ROTOS A LA JABUGUERÍA CON JAMÓN DE BELLOTA', price: '15,90 €' },
-    { title: 'CROQUETAS CASERAS DE VERDAD', description: 'De jamón 100% ibérico de bellota o queso de oveja merina', price: '3,05 €' }
+    { title: 'CROQUETAS CASERAS DE VERDAD', description: 'De jamón 100% ibérico de bellota o queso de oveja merina', price: '3,05 €' },
+    { title: 'CALAMAR DE PLAYA CON HABITAS BABY EN SU PROPIA TINTA', price: '23,90 €' },
   ];
 
   const carnes = [
     { title: 'CHULETÓN DE VACA GALLEGA SELECCIONADO', description: 'Maduración variable según pieza', price: '89,50€' },
-    { title: 'CHULETÓN DE BUEY CERTIFICADO NACIONAL ALTA MADURACIÓN', price: '158,00€/kg' },
+    { title: 'CHULETÓN DE BUEY CERTIFICADO NACIONAL ALTA MADURACIÓN', price: '179,00€/kg' },
     { title: 'WAGYU NACIONAL', price: '380,00 €/kg' },
     { title: 'WAGYU JAPONÉS CERTIFICADO - LINGOTE 100 gr', price: '75,90 €' },
     { title: 'SOLOMILLO DE GAMO',  description: 'Asado al carbón a la reducción de los dos vinos acompañado de la guarnición del mercado',price: '24,00 €' },
-    { title: 'LECHAZO ASADO AL HORNO CON LEÑA DE ENCINA', description: 'Pierna, paletilla o costillar (según mercado)', price: '18,95 € /54,90 €' },
+    { title: 'LECHAZO ASADO AL HORNO CON LEÑA DE ENCINA', description: 'Pierna, paletilla o costillar (según mercado)', price: '28,95 € /54,90 €' },
     { title: 'SECRETO IBÉRICO DE BELLOTA A LA BRASA “CARNE ECOLÓGICA”', description: 'Regado con Brandy y acompañado de patatas chips', price: '23,10€' },
     { title: 'CARRILLADA DE TERNERA LEONESA CON SETAS', price: '21,50€' },
     { title: 'SOLOMILLO DE VACA “VELLA GALLEGA”', price: '24,90€' },
@@ -70,19 +70,31 @@ export default function Carta() {
   const guisos = [
     { title: 'ARROZ BOMBA CON CONEJO DE MONTE, BOLETUS Y CARACOLES', description: 'Presentado meloso al barro', price: '19,95€' },
     { title: 'ARROZ BOMBA MELOSO MARINERO', price: '19,95€' },
-    { title: 'FABES ASTURIANAS', description: 'Las auténticas acopañadas de chocina ibérica', price: '17,95€' },
+    { title: 'FABES ASTURIANAS', description: 'Las auténticas acopañadas de chocina ibérica', price: '19,95€' },
     { title: 'SARTÉN DE AJO DE MATANZA CON HABITAS CHICAS Y UN PAR DE HUEVOS DE GALLINA DE CORRAL', description: 'Plato con mención especial según el crítico gastronómico del diario El Mundo', price: '19,50€' },
-    { title: 'GAZPACHO MANCHEGO CON ESTILO PROPIO SOBRE TORTA RODEÑA', price: '19,90€' },
+    { title: 'GAZPACHO MANCHEGO CON ESTILO PROPIO SOBRE TORTA RODEÑA', price: '19,95€' },
     { title: 'VENADO O JABALÍ EN SALSA CAMPERA CON AROMAS Y RECUERDOS DEL MONTE', price: '19,95€' },
     { title: 'MIGAS DE PASTOR',  description: 'con huevos de corral',price: '15,95€' },
-    { title: 'SARTÉN DE LA CERRADA DEL UTRERO', price: '17,85€'}
+    { title: 'SARTÉN DE LA CERRADA DEL UTRERO', price: '17,85€'},
+    { title: 'CALAMAR DE PLAYA CON HABITAS BABY EN SU PROPIA TINTA', price: '23,90 €' },
+  ];
+
+  const pescado = [
+    { title: 'ANGULAS DEL DELTA DEL EBRO', description: 'Acompañada de un huevo de corral de araucana, por comensal.', price: '87,00€' },
+    { title: 'LOMOS DE BACALAO AL ESTILO DE NUESTROS FOGONES', description: 'Sobre lecho de salsa pil-pil', price: '24,90€' },
+    { title: 'CAVIAR BELUGA (30g.)', description: 'posibilidad de acompañar con un huevo de arancana de corral.',  price: '84,90 €' },
+    { title: 'MERLUZA DEL CANTÁBRICO', description: 'Al horno con costra de mahonesa. Picual', price: '24,90€' },
+    { title: 'MORRILLO DE ATÚN ROJO SALVAJE',  description: '(según existencias)',price: '142,00 €' },
+    { title: 'RODABALLO SALVAJE', description: '(según existencias)',price: '102,00 €' },
+    { title: 'PERLAS DE BACALAO EN BASE DE QUESO DE CABRA ', price: '22,90€' },
+    { title: 'BOQUERONES DEL MEDITERRÁNEO FRITOS', description: 'rellenos de jamón ibérico de bellota D.O. Guijuelo (según existencias)', price: '18,95€' }
   ];
 
   const postres = [
     { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '10 gr', price: '29,00 €' },
     { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '30 gr', price: '84,90 €' },
     { title: 'VOLCÁN DE CAVIAR SOBRE ALMENDRAS Y HELADO DE COCO', description: '50 gr', price: '139,90 €' },
-    { title: 'CREP DE HELADO DE TURRÓN REGADO CON CHOCOLATE VALOR CALIENTE', price: '7,90€' },
+    { title: 'CREPE DE HELADO DE TURRÓN REGADO CON CHOCOLATE VALOR CALIENTE', price: '9,85€' },
     { title: 'PASTEL TEMPLADO DE QUESO DE OVEJA', price: '7,30€' },
     { title: 'CARPACCIO DE PIÑA CON COINTREAU Y MERMELADA DE NARANJA AMARGA', price: '7,50€' },
     { title: 'SORBETE DE LIMOMCELLO', price: '6,95€' },
@@ -90,18 +102,7 @@ export default function Carta() {
     { title: 'TORRIJA CARAMELIZADA AL HORNO', price: '7,90€' },
   ];
 
-  const pescado = [
-    { title: 'ANGULAS DEL DELTA DEL EBRO', description: 'Acompañada de un huevo de corral de araucana, por comensal.', price: '87,00€' },
-    { title: 'LOMOS DE BACALAO AL ESTILO DE NUESTROS FOGONES', description: 'Sobre lecho de salsa pil-pil', price: '24,90€' },
-    { title: 'CAVIAR BELUGA (10g.)', description: 'posibilidad de acompañar con un huevo de arancana de corral.',  price: '29,00 €' },
-    { title: 'CAVIAR BELUGA (30g.)', description: 'posibilidad de acompañar con un huevo de arancana de corral.',  price: '84,90 €' },
-    { title: 'CAVIAR BELUGA (50g.)', description: 'posibilidad de acompañar con un huevo de arancana de corral.',  price: '139,90 €' },
-    { title: 'MERLUZA DEL CANTÁBRICO', description: 'Al horno con costra de mahonesa. Picual', price: '24,90€' },
-    { title: 'MORRILLO DE ATÚN ROJO SALVAJE',  description: '(según existencias)',price: '142,00 €' },
-    { title: 'RODABALLO SALVAJE', description: '(según existencias)',price: '102,00 €' },
-    { title: 'PERLAS DE BACALAO EN BASE DE QUESO DE CABRA ', price: '22,90€' },
-    { title: 'BOQUERONES DEL MEDITERRÁNEO FRITOS', description: 'rellenos de jamón ibérico de bellota D.O. Guijuelo (según existencias)', price: '18,95€' }
-  ];
+
 
   const renderCards = (items) => {
     return items.slice(0, visibleCount).map((item, index) => (
@@ -125,10 +126,10 @@ export default function Carta() {
         return carnes;
       case 'guisos':
         return guisos;
-      case 'postres':
-        return postres;
       case 'pescado':
         return pescado;
+      case 'postres':
+        return postres;
       default:
         return [];
     }
@@ -158,12 +159,13 @@ export default function Carta() {
           <h2 className={`carta-section-title ${expandedSection === 'guisos' ? 'active' : ''}`} onClick={() => toggleSection('guisos')}>
             Guisos
           </h2>
-          <h2 className={`carta-section-title ${expandedSection === 'postres' ? 'active' : ''}`} onClick={() => toggleSection('postres')}>
-            Postres
-          </h2>
           <h2 className={`carta-section-title ${expandedSection === 'pescado' ? 'active' : ''}`} onClick={() => toggleSection('pescado')}>
             Pescado
           </h2>
+          <h2 className={`carta-section-title ${expandedSection === 'postres' ? 'active' : ''}`} onClick={() => toggleSection('postres')}>
+            Postres
+          </h2>
+         
         </div>
 
         <div className="carta-section-content">
