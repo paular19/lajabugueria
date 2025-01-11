@@ -1,0 +1,31 @@
+{
+  "name": "jabu",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@formspree/react": "^2.5.1",
+    "@react-email/components": "^0.0.16",
+    "@react-email/render": "^0.0.12",
+    "embla-carousel": "^3.0.5",
+    "embla-carousel-react": "^8.0.2",
+    "eslint-config-next": "^14.1.4",
+    "express": "^4.17.1",
+    "next": "^14.1.4",
+    "nodemailer": "^6.9.13",
+    "react": "^18.2.0",
+    "react-cookie-consent": "^9.0.0",
+    "react-dom": "^18.2.0",
+    "react-email": "^2.1.1",
+    "react-responsive-carousel": "^3.2.23",
+    "resend": "^3.2.0",
+    "swiper": "^11.1.4"
+  }
+}
